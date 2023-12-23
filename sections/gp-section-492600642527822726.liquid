@@ -1,0 +1,483 @@
+
+  
+  
+      <style>
+        @font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfedA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlEw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlEw.woff) format('woff');
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecnFHGPezSQ.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z11lFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z11lFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+      </style>
+    
+  <style>
+    .gps-492600642527822726 .pointer-events-auto{pointer-events:auto}.gps-492600642527822726 .relative{position:relative}.gps-492600642527822726 .mx-auto{margin-left:auto;margin-right:auto}.gps-492600642527822726 .mb-0{margin-bottom:0}.gps-492600642527822726 .\!inline{display:inline!important}.gps-492600642527822726 .flex{display:flex}.gps-492600642527822726 .grid{display:grid}.gps-492600642527822726 .h-full{height:100%}.gps-492600642527822726 .w-full{width:100%}.gps-492600642527822726 .max-w-full{max-width:100%}.gps-492600642527822726 .flex-col{flex-direction:column}.gps-492600642527822726 .gap-y-0{row-gap:0}.gps-492600642527822726 .transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-492600642527822726 .duration-200{transition-duration:.2s}.gps-492600642527822726 .ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-492600642527822726 .\[\&_\*\]\:max-w-full *{max-width:100%}.gps-492600642527822726 .\[\&_p\]\:inline p{display:inline}.gps-492600642527822726 .\[\&_p\]\:after\:whitespace-pre-wrap p:after{content:var(--tw-content);white-space:pre-wrap}.gps-492600642527822726 .\[\&_p\]\:after\:content-\[\'\\A\'\] p:after{--tw-content:"\A";content:var(--tw-content)}
+  </style>
+  
+      
+      
+            <section
+              class="mx-auto max-w-full"
+              style="--w:100%;--w-tablet:100%;--w-mobile:100%;--pl:0px;--pl-tablet:0px;--pl-mobile:0px;--pr:0px;--pr-tablet:0px;--pr-mobile:0px"
+            >
+              
+    <div
+      id="gfkrjRdHl1"
+        style="--b:solid;--bc:#EEEEEE;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:64px;--pl:15px;--pb:var(--g-s-3xl);--pr:15px;--pt-mobile:56px;--pb-mobile:var(--g-s-3xl);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:#FFFFFF;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gfkrjRdHl1 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gYZBdNX_Vs relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gCs7L2uklw"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l);--cg:32px;--pc:start;--gtc:minmax(0, 3fr) minmax(0, 3fr) minmax(0, 3fr) minmax(0, 3fr);--gtc-tablet:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gCs7L2uklw mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g8smxTFo-r relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="g0j5ceTJQg"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-xs);--cg:0px;--pc:center;--gtc:minmax(0, auto) minmax(0, auto);--gtc-mobile:minmax(0, auto) minmax(0, auto);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g0j5ceTJQg mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g5K6Q2jBro relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gFHzSKWVkA "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, Poppins);--weight:600;--ls:normal;--lh:150%;--size:43px;--size-tablet:43px;--size-mobile:38px;--c:#000000;word-break:break-word"
+        >
+        <p>1234+</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g7bkgpHgJc relative flex flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="group/image gHSSRj62zz"
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--ta:left"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="--shadow:none;border-radius:inherit;--ta:left"
+      >
+        <img
+    quality="70" title="Image Title"
+    draggable="false"
+    class="!inline h-full max-w-full flex gp_lazyload"
+    data-src="https://ucarecdn.com/a8f35eba-eeb7-474f-9c94-b021bd8b617a/-/format/auto/" data-srcset="https://ucarecdn.com/a8f35eba-eeb7-474f-9c94-b021bd8b617a/-/format/auto/ 768w,https://ucarecdn.com/a8f35eba-eeb7-474f-9c94-b021bd8b617a/-/format/auto/ 1024w,https://ucarecdn.com/a8f35eba-eeb7-474f-9c94-b021bd8b617a/-/format/auto/ 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="30" height="30" alt="Alt Image" priority
+    sizes="100vw"
+    style="--aspect:30/30;--aspect-tablet:30/30;--aspect-mobile:30/30;--objf:cover;--w:30px;--w-tablet:30px;--w-mobile:30px;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:0px;--bc:transparent;--radius:var(--g-radius-none);border-radius:inherit"
+  />
+      </div>
+  </div>
+    </div>
+    </div>
+  
+    
+    <div
+      parentTag="Col"
+        class="gWohliox6J "
+        style="--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--mb-mobile:var(--g-s-2xl);--mb-tablet:var(--g-s-xl)"
+      >
+      <div class="flex" style="--jc:center">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, Poppins);--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6B6B;word-break:break-word"
+        >
+        <p>People feel comfortable wearing it all day long</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g4_ldC2B5G relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gkLZ9_SN4e"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-xs);--cg:0px;--pc:center;--gtc:minmax(0, auto) minmax(0, auto);--gtc-mobile:minmax(0, auto) minmax(0, auto);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gkLZ9_SN4e mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gtmmeFFZpF relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="ge2bK2IboT "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, Poppins);--weight:600;--ls:normal;--lh:150%;--size:43px;--size-tablet:43px;--size-mobile:38px;--c:#000000;word-break:break-word"
+        >
+        <p>987+</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gAXMn9_l2T relative flex flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="group/image gsexL3eBza"
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--ta:left"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="--shadow:none;border-radius:inherit;--ta:left"
+      >
+        <img
+    quality="70" title="Image Title"
+    draggable="false"
+    class="!inline h-full max-w-full flex gp_lazyload"
+    data-src="https://ucarecdn.com/fb975be4-897a-46f3-b993-bc740ee9a184/-/format/auto/" data-srcset="https://ucarecdn.com/fb975be4-897a-46f3-b993-bc740ee9a184/-/format/auto/ 768w,https://ucarecdn.com/fb975be4-897a-46f3-b993-bc740ee9a184/-/format/auto/ 1024w,https://ucarecdn.com/fb975be4-897a-46f3-b993-bc740ee9a184/-/format/auto/ 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="30" height="30" alt="Alt Image" priority
+    sizes="100vw"
+    style="--aspect:30/30;--aspect-tablet:30/30;--aspect-mobile:30/30;--objf:cover;--w:30px;--w-tablet:30px;--w-mobile:30px;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:0px;--bc:transparent;--radius:var(--g-radius-none);border-radius:inherit"
+  />
+      </div>
+  </div>
+    </div>
+    </div>
+  
+    
+    <div
+      parentTag="Col"
+        class="gve6a-6cY- "
+        style="--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--mb-mobile:var(--g-s-2xl);--mb-tablet:var(--g-s-2xl)"
+      >
+      <div class="flex" style="--jc:center">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, Poppins);--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6B6B;word-break:break-word"
+        >
+        <p>People are extremely satisfied with the sound quality</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g-Kk58Udyu relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gaFPUTq9rp"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-xs);--cg:0px;--pc:center;--gtc:minmax(0, auto) minmax(0, auto);--gtc-mobile:minmax(0, auto) minmax(0, auto);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gaFPUTq9rp mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="geYsXviOEh relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g2fTXI22Uo "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, Poppins);--weight:600;--ls:normal;--lh:150%;--size:43px;--size-tablet:43px;--size-mobile:38px;--c:#000000;word-break:break-word"
+        >
+        <p>1980+</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g6TACmpmJU relative flex flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="group/image g8_xSp0EAR"
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--ta:left"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="--shadow:none;border-radius:inherit;--ta:left"
+      >
+        <img
+    quality="70" title="Image Title"
+    draggable="false"
+    class="!inline h-full max-w-full flex gp_lazyload"
+    data-src="https://ucarecdn.com/7db5aacd-1430-479e-9b99-1dab993baa1f/-/format/auto/" data-srcset="https://ucarecdn.com/7db5aacd-1430-479e-9b99-1dab993baa1f/-/format/auto/ 768w,https://ucarecdn.com/7db5aacd-1430-479e-9b99-1dab993baa1f/-/format/auto/ 1024w,https://ucarecdn.com/7db5aacd-1430-479e-9b99-1dab993baa1f/-/format/auto/ 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="30" height="30" alt="Alt Image" priority
+    sizes="100vw"
+    style="--aspect:30/30;--aspect-tablet:30/30;--aspect-mobile:30/30;--objf:cover;--w:30px;--w-tablet:30px;--w-mobile:30px;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:0px;--bc:transparent;--radius:var(--g-radius-none);border-radius:inherit"
+  />
+      </div>
+  </div>
+    </div>
+    </div>
+  
+    
+    <div
+      parentTag="Col"
+        class="gYAt1FjmD7 "
+        style="--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--mb-mobile:var(--g-s-2xl)"
+      >
+      <div class="flex" style="--jc:center">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, Poppins);--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6B6B;word-break:break-word"
+        >
+        <p>People feel comfortable wearing it all day long</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g48OvEV1Tc relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gOZ3jsTYrf"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-xs);--cg:0px;--pc:center;--gtc:minmax(0, auto) minmax(0, auto);--gtc-mobile:minmax(0, auto) minmax(0, auto);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gOZ3jsTYrf mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gvnTmQbFur relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gxHOZlqFRK "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, Poppins);--weight:600;--ls:normal;--lh:150%;--size:43px;--size-tablet:43px;--size-mobile:38px;--c:#000000;word-break:break-word"
+        >
+        <p>1256+</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gHCEXejB4q relative flex flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="group/image g887Ta5-9M"
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--ta:left"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="--shadow:none;border-radius:inherit;--ta:left"
+      >
+        <img
+    quality="70" title="Image Title"
+    draggable="false"
+    class="!inline h-full max-w-full flex gp_lazyload"
+    data-src="https://ucarecdn.com/674fe2aa-2924-469d-b542-2005f7e2dcb9/-/format/auto/" data-srcset="https://ucarecdn.com/674fe2aa-2924-469d-b542-2005f7e2dcb9/-/format/auto/ 768w,https://ucarecdn.com/674fe2aa-2924-469d-b542-2005f7e2dcb9/-/format/auto/ 1024w,https://ucarecdn.com/674fe2aa-2924-469d-b542-2005f7e2dcb9/-/format/auto/ 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="30" height="30" alt="Alt Image" priority
+    sizes="100vw"
+    style="--aspect:30/30;--aspect-tablet:30/30;--aspect-mobile:30/30;--objf:cover;--w:30px;--w-tablet:30px;--w-mobile:30px;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:0px;--bc:transparent;--radius:var(--g-radius-none);border-radius:inherit"
+  />
+      </div>
+  </div>
+    </div>
+    </div>
+  
+    
+    <div
+      parentTag="Col"
+        class="g8wXAgEWIw "
+        style="--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px"
+      >
+      <div class="flex" style="--jc:center">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, Poppins);--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6B6B;word-break:break-word"
+        >
+        <p>People can focus more on work thanks to noise cancellation</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+            </section>
+          
+    
+{% schema %}
+  {
+    
+    "name": "Section 3",
+    "tag": "section",
+    "class": "gps-492600642527822726 gps gpsi",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Section design by GemPages. [Click here to start design](https://builder.gempages.net/instant/hyperlink/edit?type=section&section_id=492600642527822726&template_id=492600642276164486)"
+      }
+    ],
+    "blocks": [{"type": "@app"}]
+  }
+{% endschema %}

@@ -1,0 +1,79 @@
+
+  
+  
+  <style>
+    .gps-492600642511111046 .relative{position:relative}.gps-492600642511111046 .mx-auto{margin-left:auto;margin-right:auto}.gps-492600642511111046 .mb-0{margin-bottom:0}.gps-492600642511111046 .flex{display:flex}.gps-492600642511111046 .grid{display:grid}.gps-492600642511111046 .max-w-full{max-width:100%}.gps-492600642511111046 .flex-col{flex-direction:column}.gps-492600642511111046 .gap-y-0{row-gap:0}.gps-492600642511111046 .transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-492600642511111046 .duration-200{transition-duration:.2s}.gps-492600642511111046 .ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-492600642511111046 .\[\&_\*\]\:max-w-full *{max-width:100%}
+  </style>
+  
+      
+      
+            <section
+              class="mx-auto max-w-full"
+              style="--w:100%;--w-tablet:100%;--w-mobile:100%;--pl:0px;--pl-tablet:0px;--pl-mobile:0px;--pr:0px;--pr-tablet:0px;--pr-mobile:0px"
+            >
+              
+    <div
+      id="gUIoRm4CEn"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-2xl);--pl:15px;--pb:var(--g-s-2xl);--pr:15px;--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:#FFFFFF;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gUIoRm4CEn mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gMrvJgUNXk relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gEoJaO5e7Y"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:0px;--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gEoJaO5e7Y mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gi-LMnltFU relative flex flex-col"
+    >
+      
+  
+    <div
+      
+      style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--ta:left"
+      data-keep-class="true"
+      class="gDB-n3WYvM "
+    ><div><div data-section-id="13611" data-section-type="review_box" style="padding-top: 0; padding-bottom: 0;">
+    <div id="shopify-ali-review-widget" product-id="{{ product.id }}">
+        <div class="shop_info" shop-id="{{ shop.id }}" shop-name="{{ shop.domain }}" style="display: none;">
+            <div class="reviews"></div>
+        </div>
+
+        <iframe class="aliReviewsFrame" widget-id="13611" title="AliReviews" data-ar-src="{{ shop.metafields.alireviews.iframe_domain }}/widget/review-widget?shop_id={{ shop.id }}&widget_id=13611&type_page={{ template }}&product_id={{ product.id }}&isAdminLogin={{ isAdmin }}&star=all&customer_id={{ customer.id }}&product_in_cart={%- for item in cart.items -%}{{ item.product_id }},{%- endfor -%}&num_rand=0&total_order_values={{customer.total_spent | divided_by:100}}&avg_order_value={{ avgOrderValue }}&tag={% for tag in customer.tags %}{{ tag }},{% endfor %}&country={% for address in customer.addresses %}{{ address.country_code }}{% endfor %}&last_purchase={{ customer.last_order.created_at | date: "%Y-%m-%d %H:%M" }}&t={{ shop.metafields.alireviews.timestamp }}&locale={{ request.locale.iso_code }}" height="0" width="100%" frameborder="0" scrolling="no" margin="0"></iframe>
+    </div>
+</div></div></div>
+  
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+            </section>
+          
+    
+{% schema %}
+  {
+    
+    "name": "Section 8",
+    "tag": "section",
+    "class": "gps-492600642511111046 gps gpsi",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Section design by GemPages. [Click here to start design](https://builder.gempages.net/instant/hyperlink/edit?type=section&section_id=492600642511111046&template_id=492600642276164486)"
+      }
+    ],
+    "blocks": [{"type": "@app"}]
+  }
+{% endschema %}
