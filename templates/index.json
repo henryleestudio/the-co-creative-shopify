@@ -217,6 +217,105 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "f99dca8b-4fc3-4e0f-9015-1fc3682f83ff": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21758548345110__f99dca8b-4fc3-4e0f-9015-1fc3682f83ff-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--21758548345110__f99dca8b-4fc3-4e0f-9015-1fc3682f83ff-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21758548345110__f99dca8b-4fc3-4e0f-9015-1fc3682f83ff-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21758548345110__f99dca8b-4fc3-4e0f-9015-1fc3682f83ff-heading-1",
+        "template--21758548345110__f99dca8b-4fc3-4e0f-9015-1fc3682f83ff-text-1",
+        "template--21758548345110__f99dca8b-4fc3-4e0f-9015-1fc3682f83ff-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "054bdbcc-eac5-44d3-96a4-b4cd62d9b0e5": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21758548345110__054bdbcc-eac5-44d3-96a4-b4cd62d9b0e5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--21758548345110__054bdbcc-eac5-44d3-96a4-b4cd62d9b0e5-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--21758548345110__054bdbcc-eac5-44d3-96a4-b4cd62d9b0e5-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21758548345110__054bdbcc-eac5-44d3-96a4-b4cd62d9b0e5-heading-1",
+        "template--21758548345110__054bdbcc-eac5-44d3-96a4-b4cd62d9b0e5-text-1",
+        "template--21758548345110__054bdbcc-eac5-44d3-96a4-b4cd62d9b0e5-buttons-1"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "12ea3672-3e1c-4e81-9866-0e0022c9ae81": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Signup for Masterclass",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -224,6 +323,9 @@
     "e852ece7-99a3-406e-bd4a-75151ce1b886",
     "a6dd5950-b2ee-415d-86a9-d6344ccbed89",
     "5d4df420-4689-48ba-afb7-0e64ddd588b5",
-    "853fd73d-aa49-47ac-babf-c2f766d3c7e7"
+    "853fd73d-aa49-47ac-babf-c2f766d3c7e7",
+    "f99dca8b-4fc3-4e0f-9015-1fc3682f83ff",
+    "054bdbcc-eac5-44d3-96a4-b4cd62d9b0e5",
+    "12ea3672-3e1c-4e81-9866-0e0022c9ae81"
   ]
 }
