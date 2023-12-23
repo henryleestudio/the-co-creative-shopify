@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "A fully automated online business",
+            "heading": "Create your own fully automated online business",
             "heading_size": "h0"
           }
         },
@@ -147,11 +147,83 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "5d4df420-4689-48ba-afb7-0e64ddd588b5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21758548345110__5d4df420-4689-48ba-afb7-0e64ddd588b5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--21758548345110__5d4df420-4689-48ba-afb7-0e64ddd588b5-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21758548345110__5d4df420-4689-48ba-afb7-0e64ddd588b5-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21758548345110__5d4df420-4689-48ba-afb7-0e64ddd588b5-heading-1",
+        "template--21758548345110__5d4df420-4689-48ba-afb7-0e64ddd588b5-text-1",
+        "template--21758548345110__5d4df420-4689-48ba-afb7-0e64ddd588b5-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "853fd73d-aa49-47ac-babf-c2f766d3c7e7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Ecom automation blueprint",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "e852ece7-99a3-406e-bd4a-75151ce1b886",
-    "a6dd5950-b2ee-415d-86a9-d6344ccbed89"
+    "a6dd5950-b2ee-415d-86a9-d6344ccbed89",
+    "5d4df420-4689-48ba-afb7-0e64ddd588b5",
+    "853fd73d-aa49-47ac-babf-c2f766d3c7e7"
   ]
 }
