@@ -137,7 +137,7 @@
         "template--21758548345110__a6dd5950-b2ee-415d-86a9-d6344ccbed89-share-1"
       ],
       "settings": {
-        "product": "",
+        "product": "production",
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "medium",
@@ -231,8 +231,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "inverse",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
