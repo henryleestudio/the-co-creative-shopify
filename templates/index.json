@@ -5,7 +5,6 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "ai-commerce a strategy to fully automate an ecommerce business",
             "heading_size": "h0"
@@ -13,7 +12,6 @@
         },
         "47275b2c-590f-499f-8907-1a60856e6df2": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "Start your year with Financial freedom",
             "text_style": "body"
@@ -21,7 +19,6 @@
         },
         "button": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify:\/\/collections\/all",
