@@ -138,7 +138,7 @@
       ],
       "settings": {
         "product": "production",
-        "color_scheme": "",
+        "color_scheme": "accent-1",
         "secondary_background": false,
         "media_size": "medium",
         "constrain_to_viewport": true,
