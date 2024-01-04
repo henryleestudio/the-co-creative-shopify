@@ -40,7 +40,7 @@
         "youtube_video_url": "",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6a7e360e3c484cd99e2937123f886ab3.mp4",
         "video_img_url": "",
-        "autoplay": false,
+        "autoplay": true,
         "show_controls": true,
         "loop_video": false,
         "image_overlay_opacity": 0,
