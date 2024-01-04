@@ -479,3 +479,12 @@
     color: currentColor;
   }
 }
+
+.image-banner__video {
+  display: flex;
+  align-items: center;
+}
+
+.image-banner__video video {
+  width: 100%;
+}
