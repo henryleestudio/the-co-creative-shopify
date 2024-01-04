@@ -488,3 +488,7 @@
 .image-banner__video video {
   width: 100%;
 }
+
+#vsl-banner {
+  background: url('../assets/play-symbol.jpeg');
+}
