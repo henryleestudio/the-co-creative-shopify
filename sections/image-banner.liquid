@@ -127,8 +127,9 @@
               {{ block.settings.heading }}
             </h2>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/BJymtGIa1T0?autoplay=1&loop=1&playlist=e2EImNQLsao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            {% comment %} <iframe width="560" height="315" src="https://www.youtube.com/embed/BJymtGIa1T0?si=TmbUMmuvRHm0wURK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> {% endcomment %}
 
+            
             {% comment %} Youtube markup here {% endcomment %}
 
             {%- if section.settings.youtube_video_url.type == 'youtube' -%}
@@ -140,7 +141,7 @@
               <video {% if section.settings.autoplay %} autoplay muted {% endif %} {% if section.settings.show_controls %} controls {% endif %} {% if section.settings.loop_video %} loop {% endif %} playsinline poster="{{ section.settings.video_img_url }}">
                   <source src="{{ section.settings.video_url }}" type="video/mp4">
                 </video>
-              {% endif %}
+              {%- endif -%}
 
           {%- when 'text' -%}
             <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
