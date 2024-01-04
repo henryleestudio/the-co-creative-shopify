@@ -135,7 +135,7 @@
               <iframe src="https://www.youtube.com/embed/{{ section.settings.youtube_video_url.id }}?enablejsapi=1" class="js-youtube" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe></iframe>
 
             {% comment %} video markup here {% endcomment %}
-
+`
               {%- elsif section.settings.video_url-%}
               <video {% if section.settings.autoplay %} autoplay muted {% endif %} {% if section.settings.show_controls %} controls {% endif %} {% if section.settings.loop_video %} loop {% endif %} playsinline poster="{{ section.settings.video_img_url }}">
                   <source src="{{ section.settings.video_url }}" type="video/mp4">
@@ -203,12 +203,12 @@
       "id": "image_2",
       "label": "t:sections.image-banner.settings.image_2.label"
     },
-    // {
-    //   "type": "video_url",
-    //   "id": "youtube_video_url",
-    //   "accept": ["youtube", "vimeo"],
-    //   "label": "Youtube Video Url"
-    // },
+    {
+      "type": "video_url",
+      "id": "youtube_video_url",
+      "accept": ["youtube", "vimeo"],
+      "label": "Youtube Video Url"
+    },
     {
       "type": "url",
       "id": "video_url",
@@ -218,6 +218,21 @@
       "type": "url",
       "id": "video_img_url",
       "label": "Video Img Url"
+    },
+    {
+      "type" : "checkbox",
+      "id" : "autoplay",
+      "label" : "autoplay if no sound"
+    },
+    {
+      "type" : "checkbox",
+      "id" : "show_controls",
+      "label" : "Show Controls"
+    },
+    {
+      "type" : "checkbox",
+      "id" : "loop_video",
+      "label" : "Loop video"
     },
     {
       "type": "range",
