@@ -202,22 +202,6 @@
       "id": "image_2",
       "label": "t:sections.image-banner.settings.image_2.label"
     },
-    // {
-    //   "type": "video_url",
-    //   "id": "youtube_video_url",
-    //   "accept": ["youtube", "vimeo"],
-    //   "label": "Youtube Video Url"
-    // },
-    {
-      "type": "url",
-      "id": "video_url",
-      "label": "Video Url"
-    },
-    {
-      "type": "url",
-      "id": "video_img_url",
-      "label": "Video Img Url"
-    },
     {
       "type": "range",
       "id": "image_overlay_opacity",
@@ -433,6 +417,23 @@
       "name": "t:sections.image-banner.blocks.text.name",
       "limit": 1,
       "settings": [
+
+        {
+          "type": "video_url",
+          "id": "youtube_video_url",
+          "accept": ["youtube", "vimeo"],
+          "label": "Youtube Video Url"
+        },
+        {
+          "type": "url",
+          "id": "video_url",
+          "label": "Video Url"
+        },
+        {
+          "type": "url",
+          "id": "video_img_url",
+          "label": "Video Img Url"
+        },
         {
           "type": "inline_richtext",
           "id": "text",
@@ -461,49 +462,7 @@
         }
       ]
     },
-    {
-      "type": "buttons",
-      "name": "t:sections.image-banner.blocks.buttons.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "button_label_1",
-          "default": "Button label",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
-          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
-        },
-        {
-          "type": "url",
-          "id": "button_link_1",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
-        },
-        {
-          "type": "checkbox",
-          "id": "button_style_secondary_1",
-          "default": false,
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_1.label"
-        },
-        {
-          "type": "text",
-          "id": "button_label_2",
-          "default": "Button label",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_2.label",
-          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_2.info"
-        },
-        {
-          "type": "url",
-          "id": "button_link_2",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_2.label"
-        },
-        {
-          "type": "checkbox",
-          "id": "button_style_secondary_2",
-          "default": false,
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
-        }
-      ]
-    }
+    
   ],
   "presets": [
     {
@@ -515,6 +474,9 @@
         {
           "type": "text"
         },
+        {
+          "type": "url"
+        }
         {
           "type": "buttons"
         }
