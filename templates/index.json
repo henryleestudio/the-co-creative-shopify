@@ -36,6 +36,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/background-1.webp",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6973871f50024c0cb629c7774174ffc7.mp4",
+        "video_img_url": "",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
