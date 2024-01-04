@@ -127,20 +127,19 @@
               {{ block.settings.heading }}
             </h2>
 
-            <iframe src="https://player.vimeo.com/video/838401956?h=b325c091b5&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BJymtGIa1T0?autoplay=1&loop=1&playlist=e2EImNQLsao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
             {% comment %} Youtube markup here {% endcomment %}
 
             {%- if section.settings.youtube_video_url.type == 'youtube' -%}
               <iframe src="https://www.youtube.com/embed/{{ section.settings.youtube_video_url.id }}?enablejsapi=1" class="js-youtube" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe></iframe>
 
-{% comment %} video markup here {% endcomment %}
+            {% comment %} video markup here {% endcomment %}
 
               {%- elsif section.settings.video_url-%}
               <video {% if section.settings.autoplay %} autoplay muted {% endif %} {% if section.settings.show_controls %} controls {% endif %} {% if section.settings.loop_video %} loop {% endif %} playsinline poster="{{ section.settings.video_img_url }}">
                   <source src="{{ section.settings.video_url }}" type="video/mp4">
                 </video>
-                
               {% endif %}
 
           {%- when 'text' -%}
@@ -193,11 +192,21 @@
   },
   "settings": [
     {
-      "type": "video_url",
-      "id": "youtube_video_url",
-      "accept": ["youtube", "vimeo"],
-      "label": "Youtube Video Url"
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-banner.settings.image.label"
     },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "t:sections.image-banner.settings.image_2.label"
+    },
+    // {
+    //   "type": "video_url",
+    //   "id": "youtube_video_url",
+    //   "accept": ["youtube", "vimeo"],
+    //   "label": "Youtube Video Url"
+    // },
     {
       "type": "url",
       "id": "video_url",
@@ -207,16 +216,6 @@
       "type": "url",
       "id": "video_img_url",
       "label": "Video Img Url"
-    },
-    {
-      "type": "image_picker",
-      "id": "image",
-      "label": "t:sections.image-banner.settings.image.label"
-    },
-    {
-      "type": "image_picker",
-      "id": "image_2",
-      "label": "t:sections.image-banner.settings.image_2.label"
     },
     {
       "type": "range",
@@ -462,22 +461,6 @@
       ]
     },
     {
-      "type": "video_url",
-      "id": "youtube_video_url",
-      "accept": ["youtube", "vimeo"],
-      "label": "Youtube Video Url"
-    },
-    {
-      "type": "url",
-      "id": "video_url",
-      "label": "Video Url"
-    },
-    {
-      "type": "url",
-      "id": "video_img_url",
-      "label": "Video Img Url"
-    },
-    {
       "type": "buttons",
       "name": "t:sections.image-banner.blocks.buttons.name",
       "limit": 1,
@@ -530,9 +513,6 @@
         },
         {
           "type": "text"
-        },
-        {
-          "type": "url"
         },
         {
           "type": "buttons"
