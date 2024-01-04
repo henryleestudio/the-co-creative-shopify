@@ -35,6 +35,7 @@
         "button"
       ],
       "settings": {
+        "custom-section-id": "vsl-banner",
         "image": "shopify:\/\/shop_images\/background-1.webp",
         "youtube_video_url": "",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6a7e360e3c484cd99e2937123f886ab3.mp4",
