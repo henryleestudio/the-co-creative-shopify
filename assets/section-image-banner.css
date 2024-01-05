@@ -480,15 +480,21 @@
   }
 }
 
+#vsl-banner .header-logo {
+  display: inline-block;
+  width: 15%;
+}
+
 .image-banner__video {
   display: flex;
   align-items: center;
 }
 
 .image-banner__video video {
+  border-radius: 9px;
   width: 100%;
 }
 
 #vsl-banner {
-  background: url('../assets/play-symbol.jpeg');
+  /* height: 1200px; */
 }
