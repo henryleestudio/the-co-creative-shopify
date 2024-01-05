@@ -38,6 +38,18 @@
     },
     "footer": {
       "type": "footer",
+      "blocks": {
+        "6bad1257-7f4b-40e5-994b-77d4c5b50026": {
+          "type": "text",
+          "settings": {
+            "heading": "Something",
+            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "6bad1257-7f4b-40e5-994b-77d4c5b50026"
+      ],
       "disabled": true,
       "settings": {
         "color_scheme": "background-1",
