@@ -55,31 +55,35 @@
         "show_text_below": false
       }
     },
-    "e852ece7-99a3-406e-bd4a-75151ce1b886": {
-      "type": "rich-text",
+    "380e9c9b-0fdb-4113-88ef-4340550b015a": {
+      "type": "newsletter",
       "blocks": {
-        "template--21758548345110__e852ece7-99a3-406e-bd4a-75151ce1b886-heading-1": {
+        "template--21758548345110__380e9c9b-0fdb-4113-88ef-4340550b015a-heading-1": {
           "type": "heading",
           "settings": {
             "heading": "The Key to financial fredom",
             "heading_size": "h1"
           }
         },
-        "template--21758548345110__e852ece7-99a3-406e-bd4a-75151ce1b886-text-1": {
-          "type": "text",
+        "template--21758548345110__380e9c9b-0fdb-4113-88ef-4340550b015a-paragraph-1": {
+          "type": "paragraph",
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21758548345110__380e9c9b-0fdb-4113-88ef-4340550b015a-email_form-1": {
+          "type": "email_form",
+          "settings": {
           }
         }
       },
       "block_order": [
-        "template--21758548345110__e852ece7-99a3-406e-bd4a-75151ce1b886-heading-1",
-        "template--21758548345110__e852ece7-99a3-406e-bd4a-75151ce1b886-text-1"
+        "template--21758548345110__380e9c9b-0fdb-4113-88ef-4340550b015a-heading-1",
+        "template--21758548345110__380e9c9b-0fdb-4113-88ef-4340550b015a-paragraph-1",
+        "template--21758548345110__380e9c9b-0fdb-4113-88ef-4340550b015a-email_form-1"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -258,7 +262,7 @@
   },
   "order": [
     "image_banner",
-    "e852ece7-99a3-406e-bd4a-75151ce1b886",
+    "380e9c9b-0fdb-4113-88ef-4340550b015a",
     "a6dd5950-b2ee-415d-86a9-d6344ccbed89",
     "5d4df420-4689-48ba-afb7-0e64ddd588b5",
     "c1f4cd4d-9f17-4f2e-ae41-16388628d390",
