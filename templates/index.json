@@ -166,14 +166,14 @@
         "template--21758548345110__5d4df420-4689-48ba-afb7-0e64ddd588b5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Are you feeling overwhelmed with tasks, leading to stress, burnout, and a lack of time to focus on your true passion?",
             "heading_size": "h1"
           }
         },
         "template--21758548345110__5d4df420-4689-48ba-afb7-0e64ddd588b5-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>THE BEST WAY TO BUILD YOUR FUNNELS, CONTENTS, AND DRIVE TRAFFIC TO YOUR OFFERS<\/p>"
           }
         },
         "template--21758548345110__5d4df420-4689-48ba-afb7-0e64ddd588b5-button-1": {
@@ -208,15 +208,15 @@
         "template--21758548345110__c1f4cd4d-9f17-4f2e-ae41-16388628d390-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Meet your instructor",
             "heading_size": "h1"
           }
         },
         "template--21758548345110__c1f4cd4d-9f17-4f2e-ae41-16388628d390-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
+            "text": "<p>Unleash Your Potential with Insightful Webinars Taught by Seasoned Instructors.<\/p>",
+            "text_style": "subtitle"
           }
         },
         "template--21758548345110__c1f4cd4d-9f17-4f2e-ae41-16388628d390-button-1": {
@@ -233,7 +233,6 @@
         "template--21758548345110__c1f4cd4d-9f17-4f2e-ae41-16388628d390-text-1",
         "template--21758548345110__c1f4cd4d-9f17-4f2e-ae41-16388628d390-button-1"
       ],
-      "disabled": true,
       "settings": {
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -249,15 +248,88 @@
         "padding_bottom": 36
       }
     },
-    "ca5fc91f-18a4-42fe-9b4f-e7b04311717a": {
-      "type": "contact-form",
-      "disabled": true,
+    "41bb8a7b-9ccb-4539-8198-9fe8f65a94f5": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--21758548345110__41bb8a7b-9ccb-4539-8198-9fe8f65a94f5-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--21758548345110__41bb8a7b-9ccb-4539-8198-9fe8f65a94f5-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--21758548345110__41bb8a7b-9ccb-4539-8198-9fe8f65a94f5-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--21758548345110__41bb8a7b-9ccb-4539-8198-9fe8f65a94f5-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21758548345110__41bb8a7b-9ccb-4539-8198-9fe8f65a94f5-collapsible_row-1",
+        "template--21758548345110__41bb8a7b-9ccb-4539-8198-9fe8f65a94f5-collapsible_row-2",
+        "template--21758548345110__41bb8a7b-9ccb-4539-8198-9fe8f65a94f5-collapsible_row-3",
+        "template--21758548345110__41bb8a7b-9ccb-4539-8198-9fe8f65a94f5-collapsible_row-4"
+      ],
       "settings": {
-        "heading": "",
+        "caption": "",
+        "heading": "Collapsible content",
         "heading_size": "h1",
-        "color_scheme": "background-1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "c879253d-3d32-4823-88c6-112a1a63f80c": {
+      "type": "background-video",
+      "blocks": {
+        "template--21758548345110__c879253d-3d32-4823-88c6-112a1a63f80c-video-1": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4d73c75e7c374af088e2e198c50be21c.mp4",
+            "title": "",
+            "text": "",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21758548345110__c879253d-3d32-4823-88c6-112a1a63f80c-video-1"
+      ],
+      "settings": {
       }
     }
   },
@@ -267,6 +339,7 @@
     "a6dd5950-b2ee-415d-86a9-d6344ccbed89",
     "5d4df420-4689-48ba-afb7-0e64ddd588b5",
     "c1f4cd4d-9f17-4f2e-ae41-16388628d390",
-    "ca5fc91f-18a4-42fe-9b4f-e7b04311717a"
+    "41bb8a7b-9ccb-4539-8198-9fe8f65a94f5",
+    "c879253d-3d32-4823-88c6-112a1a63f80c"
   ]
 }
