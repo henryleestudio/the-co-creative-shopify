@@ -148,7 +148,7 @@
       "settings": {
         "product": "the-co-creative-application",
         "color_scheme": "accent-1",
-        "secondary_background": false,
+        "secondary_background": true,
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
