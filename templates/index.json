@@ -146,7 +146,7 @@
         "template--21758548345110__a6dd5950-b2ee-415d-86a9-d6344ccbed89-share-1"
       ],
       "settings": {
-        "product": "production",
+        "product": "the-co-creative-application",
         "color_scheme": "accent-1",
         "secondary_background": false,
         "media_size": "medium",
@@ -178,7 +178,6 @@
         },
         "template--21758548345110__5d4df420-4689-48ba-afb7-0e64ddd588b5-button-1": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
