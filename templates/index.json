@@ -178,6 +178,7 @@
         },
         "template--21758548345110__5d4df420-4689-48ba-afb7-0e64ddd588b5-button-1": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -234,6 +235,7 @@
         "template--21758548345110__c1f4cd4d-9f17-4f2e-ae41-16388628d390-button-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-01-06_at_12.28.42_PM.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
