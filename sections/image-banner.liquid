@@ -51,8 +51,14 @@
   endif
 -%}
 
+{% comment %} <div class="headline__section">
+  <div class="headline__container">
+    <p class="headline__text subtitle"> Are you feeling overwhelmed with little time to focus on your true passion?</p>
+  </div>
+</div> {% endcomment %}
+
 <div
-  id="Banner-{{ section.id }}"
+  id="{{ section.settings.custom-section-id }}"
   class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
 >
   {%- if section.settings.image != blank -%}
@@ -114,22 +120,52 @@
           fetchpriority: fetch_priority
       }}
     </div>
-  {%- endif -%}
+    {%- endif -%}
+
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
+
+    <div class="title-md">
+      <p> NOW EXCEPTING 25 Creative Entreprenuers, Influencers, & beings 
+        </br></br>
+      JOIN our AI AUTOMATED INCOME WORKSHOP
+        FEBRUARY 22 2024</p>
+    </div>
+
+      <img class="header-logo" src="{{ "co-creative-logo-wht-trans.png" | asset_url }}" alt="Co – Creative, Inc logo">
+
+      <div class="image-banner__video">
+      
+      {% comment %} Youtube markup here {% endcomment %}
+
+      {%- if section.settings.youtube_video_url.type == 'youtube' -%}
+        <iframe src="https://www.youtube.com/embed/{{ section.settings.youtube_video_url.id }}?enablejsapi=1" class="js-youtube" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe></iframe>
+
+      {% comment %} video markup here {% endcomment %}
+`
+        {%- elsif section.settings.video_url-%}
+        <video {% if section.settings.autoplay %} autoplay muted {% endif %} {% if section.settings.show_controls %} controls {% endif %} {% if section.settings.loop_video %} loop {% endif %} playsinline poster="{{ section.settings.video_img_url }}">
+            <source src="{{ section.settings.video_url }}" type="video/mp4">
+          </video>
+        {%- endif -%}
+
+    </div>
       {%- for block in section.blocks -%}
         {%- case block.type -%}
-          {%- when 'heading' -%}
+
+           {%- when 'heading' -%}
             <h2
-              class="banner__heading inline-richtext {{ block.settings.heading_size }}"
+              class="title-lg banner__heading inline-richtext {{ block.settings.heading_size }}"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
             </h2>
-          {%- when 'text' -%}
-            <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-              <p>{{ block.settings.text }}</p>
-            </div>
+
+            {%- when 'text' -%}
+              <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                <p>{{ block.settings.text }}</p>
+              </div>
+          
           {%- when 'buttons' -%}
             <div
               class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
@@ -176,6 +212,11 @@
   },
   "settings": [
     {
+      "type": "text",
+      "id": "custom-section-id",
+      "label": "Custom Section Id"
+    },
+    {
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-banner.settings.image.label"
@@ -184,6 +225,42 @@
       "type": "image_picker",
       "id": "image_2",
       "label": "t:sections.image-banner.settings.image_2.label"
+    },
+    {
+    "type": "url",
+      "id": "video_background",
+      "label": "Video Background"
+    },
+    {
+      "type": "video_url",
+      "id": "youtube_video_url",
+      "accept": ["youtube", "vimeo"],
+      "label": "Youtube Video Url"
+    },
+    {
+      "type": "url",
+      "id": "video_url",
+      "label": "Video Url"
+    },
+    {
+      "type": "url",
+      "id": "video_img_url",
+      "label": "Video Img Url"
+    },
+    {
+      "type" : "checkbox",
+      "id" : "autoplay",
+      "label" : "autoplay of no sound"
+    },
+    {
+      "type" : "checkbox",
+      "id" : "show_controls",
+      "label" : "Show Controls"
+    },
+    {
+      "type" : "checkbox",
+      "id" : "loop_video",
+      "label" : "Loop video"
     },
     {
       "type": "range",
@@ -477,10 +554,10 @@
       "name": "t:sections.image-banner.presets.name",
       "blocks": [
         {
-          "type": "heading"
+          "type": "text"
         },
         {
-          "type": "text"
+          "type": "heading"
         },
         {
           "type": "buttons"
