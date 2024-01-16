@@ -13,7 +13,7 @@
         "text_qCPVGK": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Join Us at the next Photography meet up and professional lighting workshop",
             "text_style": "body"
           }
         },
@@ -21,7 +21,7 @@
           "type": "heading",
           "settings": {
             "heading": "Free workshop",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "url_Yx6Vai": {
