@@ -1,7 +1,4 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
-{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}
-{{ 'newsletter-section.css' | asset_url | stylesheet_tag }}
-{{ 'section-email-signup-banner.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
   {%- style -%}
@@ -54,14 +51,8 @@
   endif
 -%}
 
-{% comment %} <div class="headline__section">
-  <div class="headline__container">
-    <p class="headline__text subtitle"> Are you feeling overwhelmed with little time to focus on your true passion?</p>
-  </div>
-</div> {% endcomment %}
-
 <div
-  id="{{ section.settings.custom-section-id }}"
+  id="Banner-{{ section.id }}"
   class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
 >
   {%- if section.settings.image != blank -%}
@@ -123,119 +114,22 @@
           fetchpriority: fetch_priority
       }}
     </div>
-    {%- endif -%}
-
+  {%- endif -%}
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
-
-      <img class="header-logo" src="{{ "co-creative-logo-wht-trans.png" | asset_url }}" alt="Co – Creative, Inc logo">
-    
       {%- for block in section.blocks -%}
         {%- case block.type -%}
-
-          {%- when 'url' -%}
-          <div class="image-banner__video"> 
-          
-          {% comment %} video markup here {% endcomment %}
-    `
-          
-            <video {% if block.settings.autoplay %} autoplay muted {% endif %} {% if block.settings.show_controls %} controls {% endif %} {% if block.settings.loop_video %} loop {% endif %} playsinline poster="{{ block.settings.video_img_url }}">
-                <source src="{{ block.settings.video_url }}" type="video/mp4">
-              </video>
-          
-            </div>
-
-            {%- when 'video_url' -%}
-              <h1>Youtube</h1>
-            <div class="image-banner__video">
-      
-              <iframe src="https://www.youtube.com/embed/{{ section.settings.youtube_video_url.id }}?enablejsapi=1" class="js-youtube" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe>
-
-           {%- when 'heading' -%}
+          {%- when 'heading' -%}
             <h2
-              class="title-lg banner__heading inline-richtext {{ block.settings.heading_size }}"
+              class="banner__heading inline-richtext {{ block.settings.heading_size }}"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
             </h2>
-
-            {%- when 'text' -%}
-              <div class="banner__text title-md rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-                <p>{{ block.settings.text }}</p>
-              </div>
-
-            {%- when 'email_form' -%}
-              <div {{ block.shopify_attributes }}>
-                {% form 'customer', class: 'newsletter-form' %}
-                  <input type="hidden" name="contact[tags]" value="newsletter">
-                  <div
-                    class="newsletter-form__field-wrapper{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                    {% if settings.animations_reveal_on_scroll %}
-                      data-cascade
-                      style="--animation-order: {{ forloop.index }};"
-                    {% endif %}
-                  >
-                  <div class="field">
-                    <input class="field__input" autocomplete="name" type="text" id="ContactForm-first_name" name="contact[first_name]" value="" aria-required="true" placeholder="First Name" required>
-                    <label class="field__label" for="ContactForm-first_name">{{ 'customer.register.first_name' | t }}</label>
-                  </div>
-    
-                    <div class="field">
-                      <input
-                        id="NewsletterForm--{{ section.id }}"
-                        type="email"
-                        name="contact[email]"
-                        class="field__input"
-                        value="{{ form.email }}"
-                        aria-required="true"
-                        autocorrect="off"
-                        autocapitalize="off"
-                        autocomplete="email"
-                        {% if form.errors %}
-                          autofocus
-                          aria-invalid="true"
-                          aria-describedby="Newsletter-error--{{ section.id }}"
-                        {% elsif form.posted_successfully? %}
-                          aria-describedby="Newsletter-success--{{ section.id }}"
-                        {% endif %}
-                        placeholder="{{ 'newsletter.label' | t }}"
-                        required
-                      >
-                      <label class="field__label" for="NewsletterForm--{{ section.id }}">
-                        {{ 'newsletter.label' | t }}
-                      </label>
-                      <button
-                        type="submit"
-                        class="newsletter-form__button field__button"
-                        name="commit"
-                        id="Subscribe"
-                        aria-label="{{ 'newsletter.button_label' | t }}"
-                      >
-                        {% render 'icon-arrow' %}
-                      </button>
-                    </div>
-                    {%- if form.errors -%}
-                      <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">
-                        {%- render 'icon-error' -%}
-                        {{- form.errors.translated_fields.email | capitalize }}
-                        {{ form.errors.messages.email -}}
-                      </small>
-                    {%- endif -%}
-                  </div>
-                  {%- if form.posted_successfully? -%}
-                    <h3
-                      class="newsletter-form__message newsletter-form__message--success form__message"
-                      id="Newsletter-success--{{ section.id }}"
-                      tabindex="-1"
-                      autofocus
-                    >
-                      {% render 'icon-success' -%}
-                      {{- 'newsletter.success' | t }}
-                    </h3>
-                  {%- endif -%}
-                {% endform %}
-              </div>
-          
+          {%- when 'text' -%}
+            <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+              <p>{{ block.settings.text }}</p>
+            </div>
           {%- when 'buttons' -%}
             <div
               class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
@@ -282,11 +176,6 @@
   },
   "settings": [
     {
-      "type": "text",
-      "id": "custom-section-id",
-      "label": "Custom Section Id"
-    },
-    {
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-banner.settings.image.label"
@@ -295,11 +184,6 @@
       "type": "image_picker",
       "id": "image_2",
       "label": "t:sections.image-banner.settings.image_2.label"
-    },
-    {
-    "type": "url",
-      "id": "video_background",
-      "label": "Video Background"
     },
     {
       "type": "range",
@@ -477,71 +361,11 @@
       "label": "t:sections.image-banner.settings.show_text_below.label"
     }
   ],
-
-  // {
-  //     "type": "video_url",
-  //     "name": "Youtube videos",
-  //     "id": "youtube_video_url",
-  //     "accept": ["youtube", "vimeo"],
-  //     "label": "Youtube Video Url"
-  //   },
-  //   {
-  //     "type": "url",
-  //     "name": "Videos upload",
-  //     "id": "video_url",
-  //     "label": "Video Url"
-  //   },
-  //   {
-  //     "type": "url",
-  //     "name": "Videos image",
-  //     "id": "video_img_url",
-  //     "label": "Video Img Url"
-  //   },
-
-
   "blocks": [
-    {
-      "type": "video_url",
-      "name": "Youtube videos",
-      "settings": [
-        {
-          "type": "video_url", 
-          "id": "youtube_video_url",
-          "label": "Video Url",
-          "accept": ["youtube", "vimeo"]
-        }
-      ]
-    },
-    {
-      "type": "url",
-      "name": "Videos upload",
-      "settings": [
-        {
-          "type": "url", 
-           "id": "video_url",
-           "label": "Video Url"
-        }, 
-        {
-      "type" : "checkbox",
-      "id" : "autoplay",
-      "label" : "autoplay of no sound"
-    },
-    {
-      "type" : "checkbox",
-      "id" : "show_controls",
-      "label" : "Show Controls"
-    },
-    {
-      "type" : "checkbox",
-      "id" : "loop_video",
-      "label" : "Loop video"
-    }
-      ]
-    },
     {
       "type": "heading",
       "name": "t:sections.image-banner.blocks.heading.name",
-      "limit": 2,
+      "limit": 1,
       "settings": [
         {
           "type": "inline_richtext",
@@ -574,7 +398,7 @@
     {
       "type": "text",
       "name": "t:sections.image-banner.blocks.text.name",
-      "limit": 2,
+      "limit": 1,
       "settings": [
         {
           "type": "inline_richtext",
@@ -605,14 +429,9 @@
       ]
     },
     {
-      "type": "email_form",
-      "name": "t:sections.email-signup-banner.blocks.email_form.name",
-      "limit": 2
-    },
-    {
       "type": "buttons",
       "name": "t:sections.image-banner.blocks.buttons.name",
-      "limit": 2,
+      "limit": 1,
       "settings": [
         {
           "type": "text",
@@ -658,19 +477,13 @@
       "name": "t:sections.image-banner.presets.name",
       "blocks": [
         {
-          "type": "video_url"
+          "type": "heading"
         },
         {
           "type": "text"
         },
         {
-          "type": "heading"
-        },
-        {
           "type": "buttons"
-        },        
-        {
-          "type": "email_form"
         }
       ]
     }
