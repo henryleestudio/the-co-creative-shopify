@@ -1,6 +1,6 @@
 {
   "sections": {
-    "funnel": {
+    "Funnel": {
       "type": "funnel-page",
       "settings": {
         "padding_top": 28,
@@ -9,6 +9,6 @@
     }
   },
   "order": [
-    "funnel"
+    "Funnel"
   ]
 }
