@@ -3,6 +3,29 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "heading_wYRfm3": {
+          "type": "heading",
+          "settings": {
+            "heading": "NOW EXCEPTING 25 CANDIDATES",
+            "heading_size": "h1"
+          }
+        },
+        "text_wKXMqJ": {
+          "type": "text",
+          "settings": {
+            "text": "JOIN our AI AUTOMATED INCOME WORKSHOP FEBRUARY 22 2024",
+            "text_style": "body"
+          }
+        },
+        "url_gMAJny": {
+          "type": "url",
+          "settings": {
+            "video_url": "",
+            "autoplay": true,
+            "show_controls": true,
+            "loop_video": true
+          }
+        },
         "heading": {
           "type": "heading",
           "settings": {
@@ -17,33 +40,24 @@
             "text_style": "body"
           }
         },
-        "button": {
-          "type": "buttons",
+        "email_form_feCTiX": {
+          "type": "email_form",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
+        "heading_wYRfm3",
+        "text_wKXMqJ",
+        "url_gMAJny",
         "heading",
         "47275b2c-590f-499f-8907-1a60856e6df2",
-        "button"
+        "email_form_feCTiX"
       ],
       "settings": {
         "custom-section-id": "vsl-banner",
         "image": "shopify:\/\/shop_images\/Screenshot_2024-01-05_at_2.22.02_PM.png",
         "video_background": "",
-        "youtube_video_url": "",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6a7e360e3c484cd99e2937123f886ab3.mp4",
-        "video_img_url": "",
-        "autoplay": true,
-        "show_controls": true,
-        "loop_video": false,
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",

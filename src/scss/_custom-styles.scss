@@ -1,0 +1,73 @@
+// image-banner.liquid styles
+
+.banner__content {
+    padding: 0 5rem 5rem 5rem !important;
+  }
+  
+  .header-logo {
+    display: inline-block;
+    width: 4%;
+    min-width: 30px;
+    margin: 0px 0 16px 0;
+  }
+  
+  #vsl-banner {
+    .field__input {
+      background: rgb(36 40 51 / 0%);
+    }
+  }
+  
+  .image-banner__video {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-banner__video video {
+    border-radius: 9px;
+    width: 100%;
+  }
+
+  .headline {
+
+      &__section {
+        /* background: black; */
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      }
+
+      &__text {
+        color: black;
+        font-family: inherit;
+        text-align: center;
+        font-weight: 500;
+      }
+
+  }
+
+  .headline__container {
+    min-width: 200px;
+  }
+
+  .subtitle {
+    font-size: 2.8rem;
+  }
+  
+  .title-md {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 0px 0 0px 0;
+  }
+  
+  .title-lg {
+    font-weight: 500;
+  }
+
+  .color-background-1 {
+    background: transparent;
+  }
+  
