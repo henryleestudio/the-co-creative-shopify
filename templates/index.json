@@ -51,17 +51,6 @@
           "type": "email_form",
           "settings": {
           }
-        },
-        "buttons_8hUcAb": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
@@ -71,8 +60,7 @@
         "url_QMMPCG",
         "text_8dhYpq",
         "heading_BA3GGF",
-        "email_form_qmekBe",
-        "buttons_8hUcAb"
+        "email_form_qmekBe"
       ],
       "settings": {
         "custom-section-id": "",
@@ -83,7 +71,7 @@
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-d2f4cea3-b6bc-4487-9274-dbeb484e9f82",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
