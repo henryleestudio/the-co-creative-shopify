@@ -1,6 +1,6 @@
 {
   "sections": {
-    "main": {
+    "funnel": {
       "type": "funnel-page",
       "settings": {
         "padding_top": 28,
