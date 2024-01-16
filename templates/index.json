@@ -1,31 +1,86 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "image_video_banner_rA6hbb": {
+      "type": "image-video-banner",
       "blocks": {
-        "heading_wYRfm3": {
+        "heading_ViyGHK": {
           "type": "heading",
           "settings": {
-            "heading": "NOW EXCEPTING 25 CANDIDATES",
+            "heading": "Title",
             "heading_size": "h1"
           }
         },
-        "text_wKXMqJ": {
+        "text_d6NMyq": {
           "type": "text",
           "settings": {
-            "text": "JOIN our AI AUTOMATED INCOME WORKSHOP FEBRUARY 22 2024",
+            "text": "Start your year with Financial freedom",
             "text_style": "body"
           }
         },
-        "url_gMAJny": {
+        "slide_3Q6Ypj": {
+          "type": "slide",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-wht-trans.png",
+            "logo-size": 40
+          }
+        },
+        "url_QMMPCG": {
           "type": "url",
           "settings": {
-            "video_url": "",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6a7e360e3c484cd99e2937123f886ab3.mp4",
             "autoplay": true,
             "show_controls": true,
             "loop_video": true
           }
         },
+        "text_8dhYpq": {
+          "type": "text",
+          "settings": {
+            "text": "HOW TO AUTOMATE INCOME WITH ARTIFICIAL INTELLIGENCE",
+            "text_style": "body"
+          }
+        },
+        "heading_BA3GGF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "email_form_qmekBe": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_ViyGHK",
+        "text_d6NMyq",
+        "slide_3Q6Ypj",
+        "url_QMMPCG",
+        "text_8dhYpq",
+        "heading_BA3GGF",
+        "email_form_qmekBe"
+      ],
+      "settings": {
+        "custom-section-id": "",
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-01-05_at_2.22.02_PM.png",
+        "video_background": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
@@ -39,25 +94,15 @@
             "text": "Start your year with Financial freedom",
             "text_style": "body"
           }
-        },
-        "email_form_feCTiX": {
-          "type": "email_form",
-          "settings": {
-          }
         }
       },
       "block_order": [
-        "heading_wYRfm3",
-        "text_wKXMqJ",
-        "url_gMAJny",
         "heading",
-        "47275b2c-590f-499f-8907-1a60856e6df2",
-        "email_form_feCTiX"
+        "47275b2c-590f-499f-8907-1a60856e6df2"
       ],
+      "disabled": true,
       "settings": {
-        "custom-section-id": "vsl-banner",
-        "image": "shopify:\/\/shop_images\/Screenshot_2024-01-05_at_2.22.02_PM.png",
-        "video_background": "",
+        "image": "shopify:\/\/shop_images\/web-background-q5-nometa-bicubicauto-1200.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
@@ -349,6 +394,7 @@
     }
   },
   "order": [
+    "image_video_banner_rA6hbb",
     "image_banner",
     "380e9c9b-0fdb-4113-88ef-4340550b015a",
     "a6dd5950-b2ee-415d-86a9-d6344ccbed89",
