@@ -18,11 +18,11 @@
             "heading_size": "h1"
           }
         },
-        "heading_gBgkje": {
-          "type": "heading",
+        "text_qCPVGK": {
+          "type": "text",
           "settings": {
-            "heading": "FREE PROFESSIONAL LIGHTING WORKSHOP 2.18.24",
-            "heading_size": "h2"
+            "text": "FREE PROFESSIONAL LIGHTING WORKSHOP 2.18.24",
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "url_Yx6Vai": {
@@ -34,11 +34,11 @@
             "loop_video": true
           }
         },
-        "heading_BCxeqk": {
-          "type": "heading",
+        "text_RwQt6p": {
+          "type": "text",
           "settings": {
-            "heading": "Now accepting 15 candidates",
-            "heading_size": "h2"
+            "text": "Now accepting 15 candidates",
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "heading_n977fY": {
@@ -56,9 +56,9 @@
       },
       "block_order": [
         "heading_37bkcb",
-        "heading_gBgkje",
+        "text_qCPVGK",
         "url_Yx6Vai",
-        "heading_BCxeqk",
+        "text_RwQt6p",
         "heading_n977fY",
         "email_form_jQFAMV"
       ],
@@ -76,6 +76,155 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "rich_text_tqxzAA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_J6VRNH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_y6ydDn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_DG8cwP": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_J6VRNH",
+        "text_y6ydDn",
+        "button_DG8cwP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_kWNKbm": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_zHxddR": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_diXpFa": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_WpdWAP": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zHxddR",
+        "text_diXpFa",
+        "buttons_WpdWAP"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/photo-studio-lit.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multicolumn_EViXGb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_r9cxPq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the-co-creative-emblem-crt.png",
+            "title": "NETWORK & LEARN",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HdChFF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the-co-creative-emblem-gray-trans.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FJMHby": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the-co-creative-favicon-rounded.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_r9cxPq",
+        "column_HdChFF",
+        "column_FJMHby"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_GLU6cF": {
@@ -190,118 +339,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_banner_kWNKbm": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_zHxddR": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "text_diXpFa": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_WpdWAP": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_zHxddR",
-        "text_diXpFa",
-        "buttons_WpdWAP"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/photo-studio-lit.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "multicolumn_EViXGb": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_r9cxPq": {
-          "type": "column",
-          "settings": {
-            "title": "WHAT YOU'LL LEARN",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_HdChFF": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_FJMHby": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_r9cxPq",
-        "column_HdChFF",
-        "column_FJMHby"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "Funnel",
     "image_video_banner_XQntDG",
-    "image_with_text_GLU6cF",
-    "image_with_text_4rtT7W",
+    "rich_text_tqxzAA",
     "image_banner_kWNKbm",
-    "multicolumn_EViXGb"
+    "multicolumn_EViXGb",
+    "image_with_text_GLU6cF",
+    "image_with_text_4rtT7W"
   ]
 }
