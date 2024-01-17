@@ -25,11 +25,11 @@
             "heading_size": "h2"
           }
         },
-        "heading_ThzTna": {
-          "type": "heading",
+        "slide_4aKNf8": {
+          "type": "slide",
           "settings": {
-            "heading": "📸",
-            "heading_size": "h0"
+            "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-wht-trans.png",
+            "logo-size": 35
           }
         },
         "url_Yx6Vai": {
@@ -59,24 +59,16 @@
           "type": "email_form",
           "settings": {
           }
-        },
-        "slide_4aKNf8": {
-          "type": "slide",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-wht-trans.png",
-            "logo-size": 100
-          }
         }
       },
       "block_order": [
         "heading_37bkcb",
         "heading_HDYcAp",
-        "heading_ThzTna",
+        "slide_4aKNf8",
         "url_Yx6Vai",
         "heading_NeT6Cj",
         "heading_n977fY",
-        "email_form_jQFAMV",
-        "slide_4aKNf8"
+        "email_form_jQFAMV"
       ],
       "settings": {
         "custom-section-id": "",
