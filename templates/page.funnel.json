@@ -15,7 +15,14 @@
           "type": "heading",
           "settings": {
             "heading": "NETWORK & SHOOT",
-            "heading_size": "h1"
+            "heading_size": "h0"
+          }
+        },
+        "text_Tw8YPL": {
+          "type": "text",
+          "settings": {
+            "text": "📸",
+            "text_style": "body"
           }
         },
         "heading_HDYcAp": {
@@ -37,8 +44,8 @@
         "heading_NeT6Cj": {
           "type": "heading",
           "settings": {
-            "heading": "Now accepting 15 candidates",
-            "heading_size": "h2"
+            "heading": "Now Accepting 15 Candidates",
+            "heading_size": "h0"
           }
         },
         "heading_n977fY": {
@@ -56,6 +63,7 @@
       },
       "block_order": [
         "heading_37bkcb",
+        "text_Tw8YPL",
         "heading_HDYcAp",
         "url_Yx6Vai",
         "heading_NeT6Cj",
