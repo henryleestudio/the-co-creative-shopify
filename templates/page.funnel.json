@@ -29,7 +29,9 @@
           "type": "slide",
           "settings": {
             "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-wht-trans.png",
-            "logo-size": 35
+            "logo-size": 35,
+            "logo_margin_top": 20,
+            "logo_margin_bottom": 10
           }
         },
         "url_Yx6Vai": {
@@ -236,7 +238,9 @@
           "type": "slide",
           "settings": {
             "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-crt.png",
-            "logo-size": 100
+            "logo-size": 100,
+            "logo_margin_top": 70,
+            "logo_margin_bottom": 10
           }
         }
       },
@@ -415,7 +419,9 @@
           "type": "slide",
           "settings": {
             "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-gray-trans.png",
-            "logo-size": 100
+            "logo-size": 80,
+            "logo_margin_top": 125,
+            "logo_margin_bottom": 10
           }
         }
       },
