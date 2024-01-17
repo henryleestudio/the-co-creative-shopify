@@ -76,10 +76,59 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "image_with_text_GLU6cF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_t6rFYG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet your instructor <strong>Keith Lewis<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_PixJB4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I consider myself fortunate as I can honestly say that I love my job. Photography has become a way of life for me and I take a great deal of pride in the images that I create.<br\/><br\/>New memories are always being created, so I understand the importance of capturing these moments in a fashion that can be enjoyed for years to come.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_88jC77": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_t6rFYG",
+        "text_PixJB4",
+        "button_88jC77"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/keith-photographer.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "Funnel",
-    "image_video_banner_XQntDG"
+    "image_video_banner_XQntDG",
+    "image_with_text_GLU6cF"
   ]
 }
