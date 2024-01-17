@@ -154,48 +154,6 @@
         "show_text_below": true
       }
     },
-    "newsletter_gGdLKB": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_EqnQJY": {
-          "type": "heading",
-          "settings": {
-            "heading": "Don't miss the opportunity",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_ceJXPV": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>FIRST COME, FIRST SERVE<\/p>"
-          }
-        },
-        "email_form_49xq7t": {
-          "type": "email_form",
-          "settings": {
-          }
-        },
-        "slide_nT46ri": {
-          "type": "slide",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-crt.png",
-            "logo-size": 100
-          }
-        }
-      },
-      "block_order": [
-        "heading_EqnQJY",
-        "paragraph_ceJXPV",
-        "email_form_49xq7t",
-        "slide_nT46ri"
-      ],
-      "settings": {
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_EViXGb": {
       "type": "multicolumn",
       "blocks": {
@@ -250,6 +208,48 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter_gGdLKB": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_EqnQJY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Don't miss the opportunity",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_ceJXPV": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>FIRST COME, FIRST SERVE<\/p>"
+          }
+        },
+        "email_form_49xq7t": {
+          "type": "email_form",
+          "settings": {
+          }
+        },
+        "slide_nT46ri": {
+          "type": "slide",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-crt.png",
+            "logo-size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_EqnQJY",
+        "paragraph_ceJXPV",
+        "email_form_49xq7t",
+        "slide_nT46ri"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
         "padding_bottom": 36
       }
     },
@@ -445,8 +445,8 @@
     "image_video_banner_XQntDG",
     "rich_text_tqxzAA",
     "image_banner_kWNKbm",
-    "newsletter_gGdLKB",
     "multicolumn_EViXGb",
+    "newsletter_gGdLKB",
     "image_with_text_GLU6cF",
     "image_with_text_4rtT7W",
     "background_video_LTQzeG",
