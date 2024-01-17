@@ -25,6 +25,16 @@
             "heading_size": "h2"
           }
         },
+<<<<<<< HEAD
+=======
+        "slide_4aKNf8": {
+          "type": "slide",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-wht-trans.png",
+            "logo-size": 45
+          }
+        },
+>>>>>>> origin/staging
         "url_Yx6Vai": {
           "type": "url",
           "settings": {
@@ -78,6 +88,176 @@
         "show_text_below": true
       }
     },
+<<<<<<< HEAD
+=======
+    "rich_text_tqxzAA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_J6VRNH": {
+          "type": "heading",
+          "settings": {
+            "heading": "STATE OF THE ART PHOTOGRAPHY STUDIO",
+            "heading_size": "h0"
+          }
+        },
+        "text_y6ydDn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• The studio is 1500 square feet <br\/>• Professional grade cyc wall<br\/>• Multiple photo walls<br\/>• Seamless set<br\/>• Black out curtains <br\/>• An array of furniture and props <br\/>• Ample parking<br\/>• Cutting edge equiptment<br\/><br\/>A premier full-service facility catering to photographers, filmmakers, content creators, and creative entrepreneurs in the heart of Philadelphia.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_J6VRNH",
+        "text_y6ydDn"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_kWNKbm": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_zHxddR": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_diXpFa": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zHxddR",
+        "text_diXpFa"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/photo-studio-lit.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-d2f4cea3-b6bc-4487-9274-dbeb484e9f82",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multicolumn_EViXGb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_r9cxPq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/networking.png",
+            "title": "NETWORK",
+            "text": "<p>Meet likeminded Creative Professionals for inspiration and collaborative growth<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HdChFF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/deal.png",
+            "title": "LEARN",
+            "text": "<p>Illuminate your craft with cutting-edge techniques and take your skills to the next level<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FJMHby": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sketch.png",
+            "title": "BUILD",
+            "text": "<p>Elevate your portfolio with Keith Lewis, a master teacher in real time and in person<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_r9cxPq",
+        "column_HdChFF",
+        "column_FJMHby"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "icon_size": 40,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter_gGdLKB": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_EqnQJY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Don't miss the opportunity",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_ceJXPV": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>FIRST COME, FIRST SERVE<\/p>"
+          }
+        },
+        "email_form_49xq7t": {
+          "type": "email_form",
+          "settings": {
+          }
+        },
+        "slide_nT46ri": {
+          "type": "slide",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-crt.png",
+            "logo-size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_EqnQJY",
+        "paragraph_ceJXPV",
+        "email_form_49xq7t",
+        "slide_nT46ri"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 36
+      }
+    },
+>>>>>>> origin/staging
     "image_with_text_GLU6cF": {
       "type": "image-with-text",
       "blocks": {
@@ -198,28 +378,54 @@
           "type": "heading",
           "disabled": true,
           "settings": {
+<<<<<<< HEAD
             "heading": "Image banner",
             "heading_size": "h1"
+=======
+            "heading": "FREE STATE OF THE ART PROFESSIONAL LIGHTING WORKSHOP 2.18.24",
+            "heading_size": "h0"
+>>>>>>> origin/staging
           }
         },
         "text_diXpFa": {
           "type": "text",
           "disabled": true,
           "settings": {
+<<<<<<< HEAD
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
+=======
+            "text": "<p>Now Accepting 15 Candidates<\/p>"
+>>>>>>> origin/staging
           }
         },
         "buttons_WpdWAP": {
           "type": "buttons",
           "disabled": true,
           "settings": {
+<<<<<<< HEAD
             "button_label_1": "Button label",
             "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "Button label",
             "button_link_2": "",
             "button_style_secondary_2": false
+=======
+          }
+        },
+        "slide_btkQC4": {
+          "type": "slide",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-gray-trans.png",
+            "logo-size": 45
+          }
+        },
+        "paragraph_ApMTGG": {
+          "type": "paragraph",
+          "disabled": true,
+          "settings": {
+            "text": "<p><a href=\"https:\/\/wallstreet.thetrapperuniversity.com\/privacy-policy\" target=\"_parent\"><span style=\"text-decoration:underline\">PRIVACY POLICY<\/span><\/a>|<a href=\"https:\/\/wallstreet.thetrapperuniversity.com\/terms-of-use\" target=\"_parent\"><span style=\"text-decoration:underline\">TERMS OF USE<\/span><\/a>|<a href=\"https:\/\/wallstreet.thetrapperuniversity.com\/disclaimer\" target=\"_parent\"><span style=\"text-decoration:underline\">DISCLAIMER<\/span><\/a>|<a href=\"https:\/\/wallstreet.thetrapperuniversity.com\/contact-us\" target=\"_parent\">CONTACT US<\/a>  | <a href=\"https:\/\/wallstreet.thetrapperuniversity.com\/refunds\" target=\"_parent\"><span style=\"text-decoration:underline\">REFUND POLICY<\/span><\/a><\/p>"
+>>>>>>> origin/staging
           }
         }
       },
