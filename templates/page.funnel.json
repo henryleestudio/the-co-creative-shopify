@@ -14,14 +14,14 @@
         "heading_37bkcb": {
           "type": "heading",
           "settings": {
-            "heading": "NETWORK & SHOOT",
+            "heading": "FREE PROFESSIONAL LIGHTING WORKSHOP 2.18.24",
             "heading_size": "h0"
           }
         },
         "heading_HDYcAp": {
           "type": "heading",
           "settings": {
-            "heading": "FREE PROFESSIONAL LIGHTING WORKSHOP 2.18.24",
+            "heading": "NETWORK & SHOOT ✨ 📸",
             "heading_size": "h2"
           }
         },
@@ -134,23 +134,11 @@
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
           }
-        },
-        "buttons_WpdWAP": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_zHxddR",
-        "text_diXpFa",
-        "buttons_WpdWAP"
+        "text_diXpFa"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/photo-studio-lit.webp",
@@ -164,6 +152,48 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "newsletter_gGdLKB": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_EqnQJY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Don't miss the opportunity",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_ceJXPV": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>FIRST COME, FIRST SERVE<\/p>"
+          }
+        },
+        "email_form_49xq7t": {
+          "type": "email_form",
+          "settings": {
+          }
+        },
+        "slide_nT46ri": {
+          "type": "slide",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-crt.png",
+            "logo-size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_EqnQJY",
+        "paragraph_ceJXPV",
+        "email_form_49xq7t",
+        "slide_nT46ri"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 36
       }
     },
     "multicolumn_EViXGb": {
@@ -208,12 +238,13 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
+        "icon_size": 40,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "REGISTAR NOW",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -359,76 +390,53 @@
       "settings": {
       }
     },
-    "newsletter_gGdLKB": {
+    "newsletter_TqnzRm": {
       "type": "newsletter",
       "blocks": {
-        "heading_EqnQJY": {
+        "heading_wjme9C": {
           "type": "heading",
           "settings": {
             "heading": "Subscribe to our emails",
             "heading_size": "h1"
           }
         },
-        "paragraph_ceJXPV": {
+        "paragraph_KdpCrK": {
           "type": "paragraph",
           "settings": {
             "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
           }
         },
-        "email_form_49xq7t": {
+        "email_form_TYMgUk": {
           "type": "email_form",
           "settings": {
+          }
+        },
+        "slide_btkQC4": {
+          "type": "slide",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-gray-trans.png",
+            "logo-size": 100
+          }
+        },
+        "paragraph_ApMTGG": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
           }
         }
       },
       "block_order": [
-        "heading_EqnQJY",
-        "paragraph_ceJXPV",
-        "email_form_49xq7t"
+        "heading_wjme9C",
+        "paragraph_KdpCrK",
+        "email_form_TYMgUk",
+        "slide_btkQC4",
+        "paragraph_ApMTGG"
       ],
       "settings": {
         "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "image_video_banner_jMpCwW": {
-      "type": "image-video-banner",
-      "blocks": {
-        "text_FxMDUU": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "slide_kMgDtR": {
-          "type": "slide",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-gray-trans.png",
-            "logo-size": 50
-          }
-        }
-      },
-      "block_order": [
-        "text_FxMDUU",
-        "slide_kMgDtR"
-      ],
-      "settings": {
-        "custom-section-id": "",
-        "video_banner_background": "",
-        "video_background": "",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     }
   },
@@ -437,11 +445,11 @@
     "image_video_banner_XQntDG",
     "rich_text_tqxzAA",
     "image_banner_kWNKbm",
+    "newsletter_gGdLKB",
     "multicolumn_EViXGb",
     "image_with_text_GLU6cF",
     "image_with_text_4rtT7W",
     "background_video_LTQzeG",
-    "newsletter_gGdLKB",
-    "image_video_banner_jMpCwW"
+    "newsletter_TqnzRm"
   ]
 }

@@ -17,6 +17,7 @@
       "block_order": [
         "image_WrDgWt"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": false,
