@@ -10,18 +10,18 @@
     "image_video_banner_XQntDG": {
       "type": "image-video-banner",
       "blocks": {
-        "text_qCPVGK": {
-          "type": "text",
-          "settings": {
-            "text": "Join Us at the next Photography meet up and professional lighting workshop",
-            "text_style": "body"
-          }
-        },
         "heading_37bkcb": {
           "type": "heading",
           "settings": {
-            "heading": "Free workshop",
-            "heading_size": "h0"
+            "heading": "NETWORK & SHOOT",
+            "heading_size": "h1"
+          }
+        },
+        "text_qCPVGK": {
+          "type": "text",
+          "settings": {
+            "text": "FREE PROFESSIONAL LIGHTING WORKSHOP 2.18.24",
+            "text_style": "body"
           }
         },
         "url_Yx6Vai": {
@@ -54,8 +54,8 @@
         }
       },
       "block_order": [
-        "text_qCPVGK",
         "heading_37bkcb",
+        "text_qCPVGK",
         "url_Yx6Vai",
         "heading_n977fY",
         "text_RwQt6p",
