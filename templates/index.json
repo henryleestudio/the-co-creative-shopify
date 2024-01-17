@@ -6,15 +6,15 @@
         "heading_ViyGHK": {
           "type": "heading",
           "settings": {
-            "heading": "Title",
+            "heading": "NETWORK & SHOOT",
             "heading_size": "h1"
           }
         },
-        "text_d6NMyq": {
-          "type": "text",
+        "heading_6Wab9n": {
+          "type": "heading",
           "settings": {
-            "text": "Start your year with Financial freedom",
-            "text_style": "body"
+            "heading": "FREE PROFESSIONAL LIGHTING WORKSHOP 2.18.24",
+            "heading_size": "h2"
           }
         },
         "slide_3Q6Ypj": {
@@ -33,18 +33,18 @@
             "loop_video": true
           }
         },
-        "text_8dhYpq": {
-          "type": "text",
+        "heading_7PjMj8": {
+          "type": "heading",
           "settings": {
-            "text": "HOW TO AUTOMATE INCOME WITH ARTIFICIAL INTELLIGENCE",
-            "text_style": "body"
+            "heading": "Now accepting 15 candidates",
+            "heading_size": "h2"
           }
         },
         "heading_BA3GGF": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "heading": "Registar Below",
+            "heading_size": "h2"
           }
         },
         "email_form_qmekBe": {
@@ -55,10 +55,10 @@
       },
       "block_order": [
         "heading_ViyGHK",
-        "text_d6NMyq",
+        "heading_6Wab9n",
         "slide_3Q6Ypj",
         "url_QMMPCG",
-        "text_8dhYpq",
+        "heading_7PjMj8",
         "heading_BA3GGF",
         "email_form_qmekBe"
       ],
@@ -392,6 +392,93 @@
       ],
       "settings": {
       }
+    },
+    "image_video_banner_8yqiCy": {
+      "type": "image-video-banner",
+      "blocks": {
+        "text_p9Tgew": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "heading_jGeBYC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_fB6FQx": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "email_form_rBFyKf": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "text_p9Tgew",
+        "heading_jGeBYC",
+        "buttons_fB6FQx",
+        "email_form_rBFyKf"
+      ],
+      "settings": {
+        "custom-section-id": "",
+        "video_banner_background": "",
+        "video_background": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "newsletter_2_wRHa8F": {
+      "type": "newsletter-2",
+      "blocks": {
+        "heading_4TdhHa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails"
+          }
+        },
+        "paragraph_UFCEPq": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email_form_JiPBPd": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_4TdhHa",
+        "paragraph_UFCEPq",
+        "email_form_JiPBPd"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -402,6 +489,8 @@
     "5d4df420-4689-48ba-afb7-0e64ddd588b5",
     "c1f4cd4d-9f17-4f2e-ae41-16388628d390",
     "41bb8a7b-9ccb-4539-8198-9fe8f65a94f5",
-    "c879253d-3d32-4823-88c6-112a1a63f80c"
+    "c879253d-3d32-4823-88c6-112a1a63f80c",
+    "image_video_banner_8yqiCy",
+    "newsletter_2_wRHa8F"
   ]
 }
