@@ -202,7 +202,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "REGISTAR NOW",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -396,14 +396,14 @@
         "heading_wjme9C": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
+            "heading": "FREE PROFESSIONAL LIGHTING WORKSHOP 2.18.24",
             "heading_size": "h1"
           }
         },
         "paragraph_KdpCrK": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "<p>Now Accepting 15 Candidates<\/p>"
           }
         },
         "email_form_TYMgUk": {
