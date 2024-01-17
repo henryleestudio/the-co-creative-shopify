@@ -18,18 +18,18 @@
             "heading_size": "h0"
           }
         },
-        "text_Tw8YPL": {
-          "type": "text",
-          "settings": {
-            "text": "📸",
-            "text_style": "body"
-          }
-        },
         "heading_HDYcAp": {
           "type": "heading",
           "settings": {
             "heading": "FREE PROFESSIONAL LIGHTING WORKSHOP 2.18.24",
             "heading_size": "h2"
+          }
+        },
+        "heading_ThzTna": {
+          "type": "heading",
+          "settings": {
+            "heading": "📸",
+            "heading_size": "h0"
           }
         },
         "url_Yx6Vai": {
@@ -59,16 +59,24 @@
           "type": "email_form",
           "settings": {
           }
+        },
+        "slide_4aKNf8": {
+          "type": "slide",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-wht-trans.png",
+            "logo-size": 100
+          }
         }
       },
       "block_order": [
         "heading_37bkcb",
-        "text_Tw8YPL",
         "heading_HDYcAp",
+        "heading_ThzTna",
         "url_Yx6Vai",
         "heading_NeT6Cj",
         "heading_n977fY",
-        "email_form_jQFAMV"
+        "email_form_jQFAMV",
+        "slide_4aKNf8"
       ],
       "settings": {
         "custom-section-id": "",
