@@ -420,6 +420,7 @@
         },
         "paragraph_ApMTGG": {
           "type": "paragraph",
+          "disabled": true,
           "settings": {
             "text": "<p><a href=\"https:\/\/wallstreet.thetrapperuniversity.com\/privacy-policy\" target=\"_parent\"><span style=\"text-decoration:underline\">PRIVACY POLICY<\/span><\/a>|<a href=\"https:\/\/wallstreet.thetrapperuniversity.com\/terms-of-use\" target=\"_parent\"><span style=\"text-decoration:underline\">TERMS OF USE<\/span><\/a>|<a href=\"https:\/\/wallstreet.thetrapperuniversity.com\/disclaimer\" target=\"_parent\"><span style=\"text-decoration:underline\">DISCLAIMER<\/span><\/a>|<a href=\"https:\/\/wallstreet.thetrapperuniversity.com\/contact-us\" target=\"_parent\">CONTACT US<\/a>  | <a href=\"https:\/\/wallstreet.thetrapperuniversity.com\/refunds\" target=\"_parent\"><span style=\"text-decoration:underline\">REFUND POLICY<\/span><\/a><\/p>"
           }
