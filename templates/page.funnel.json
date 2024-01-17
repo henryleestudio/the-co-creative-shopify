@@ -14,22 +14,15 @@
         "heading_37bkcb": {
           "type": "heading",
           "settings": {
-            "heading": "FREE PROFESSIONAL LIGHTING WORKSHOP 2.18.24",
-            "heading_size": "h0"
+            "heading": "NETWORK & SHOOT",
+            "heading_size": "h1"
           }
         },
-        "heading_HDYcAp": {
+        "heading_gBgkje": {
           "type": "heading",
           "settings": {
-            "heading": "NETWORK & SHOOT ✨ 📸",
+            "heading": "FREE PROFESSIONAL LIGHTING WORKSHOP 2.18.24",
             "heading_size": "h2"
-          }
-        },
-        "slide_4aKNf8": {
-          "type": "slide",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-wht-trans.png",
-            "logo-size": 35
           }
         },
         "url_Yx6Vai": {
@@ -41,11 +34,11 @@
             "loop_video": true
           }
         },
-        "heading_NeT6Cj": {
+        "heading_BCxeqk": {
           "type": "heading",
           "settings": {
-            "heading": "Now Accepting 15 Candidates",
-            "heading_size": "h0"
+            "heading": "Now accepting 15 candidates",
+            "heading_size": "h2"
           }
         },
         "heading_n977fY": {
@@ -63,10 +56,9 @@
       },
       "block_order": [
         "heading_37bkcb",
-        "heading_HDYcAp",
-        "slide_4aKNf8",
+        "heading_gBgkje",
         "url_Yx6Vai",
-        "heading_NeT6Cj",
+        "heading_BCxeqk",
         "heading_n977fY",
         "email_form_jQFAMV"
       ],
@@ -84,173 +76,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "rich_text_tqxzAA": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_J6VRNH": {
-          "type": "heading",
-          "settings": {
-            "heading": "STATE OF THE ART PHOTOGRAPHY STUDIO",
-            "heading_size": "h0"
-          }
-        },
-        "text_y6ydDn": {
-          "type": "text",
-          "settings": {
-            "text": "<p>• The studio is 1500 square feet <br\/>• Professional grade cyc wall<br\/>• Multiple photo walls<br\/>• Seamless set<br\/>• Black out curtains <br\/>• An array of furniture and props <br\/>• Ample parking<br\/>• Cutting edge equiptment<br\/><br\/>A premier full-service facility catering to photographers, filmmakers, content creators, and creative entrepreneurs in the heart of Philadelphia.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_J6VRNH",
-        "text_y6ydDn"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "image_banner_kWNKbm": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_zHxddR": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "text_diXpFa": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_zHxddR",
-        "text_diXpFa"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/photo-studio-lit.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-d2f4cea3-b6bc-4487-9274-dbeb484e9f82",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "multicolumn_EViXGb": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_r9cxPq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/networking.png",
-            "title": "NETWORK",
-            "text": "<p>Meet likeminded Creative Professionals for inspiration and collaborative growth<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_HdChFF": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/deal.png",
-            "title": "LEARN",
-            "text": "<p>Illuminate your craft with cutting-edge techniques and take your skills to the next level<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_FJMHby": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sketch.png",
-            "title": "BUILD",
-            "text": "<p>Elevate your portfolio with Keith Lewis, a master teacher in real time and in person<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_r9cxPq",
-        "column_HdChFF",
-        "column_FJMHby"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "icon_size": 40,
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "REGISTAR NOW",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "newsletter_gGdLKB": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_EqnQJY": {
-          "type": "heading",
-          "settings": {
-            "heading": "Don't miss the opportunity",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_ceJXPV": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>FIRST COME, FIRST SERVE<\/p>"
-          }
-        },
-        "email_form_49xq7t": {
-          "type": "email_form",
-          "settings": {
-          }
-        },
-        "slide_nT46ri": {
-          "type": "slide",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-crt.png",
-            "logo-size": 100
-          }
-        }
-      },
-      "block_order": [
-        "heading_EqnQJY",
-        "paragraph_ceJXPV",
-        "email_form_49xq7t",
-        "slide_nT46ri"
-      ],
-      "settings": {
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 36
       }
     },
     "image_with_text_GLU6cF": {
@@ -316,7 +141,7 @@
         "caption_KM3Czx": {
           "type": "caption",
           "settings": {
-            "caption": "Meet your Host",
+            "caption": "Meet your instructor",
             "text_style": "caption-with-letter-spacing",
             "text_size": "large"
           }
@@ -337,7 +162,6 @@
         },
         "button_ap9Jrf": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -367,89 +191,117 @@
         "padding_bottom": 36
       }
     },
-    "background_video_LTQzeG": {
-      "type": "background-video",
+    "image_banner_kWNKbm": {
+      "type": "image-banner",
       "blocks": {
-        "video_Pkrbdx": {
-          "type": "video",
-          "settings": {
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4d73c75e7c374af088e2e198c50be21c.mp4",
-            "title": "",
-            "text": "",
-            "color_text": "#ffffff",
-            "button_label": "",
-            "button_link": "",
-            "color_btn_bg": "#ffffff",
-            "color_btn_text": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "video_Pkrbdx"
-      ],
-      "settings": {
-      }
-    },
-    "newsletter_TqnzRm": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_wjme9C": {
+        "heading_zHxddR": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "Subscribe to our emails",
+            "heading": "Image banner",
             "heading_size": "h1"
           }
         },
-        "paragraph_KdpCrK": {
-          "type": "paragraph",
+        "text_diXpFa": {
+          "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
           }
         },
-        "email_form_TYMgUk": {
-          "type": "email_form",
+        "buttons_WpdWAP": {
+          "type": "buttons",
+          "disabled": true,
           "settings": {
-          }
-        },
-        "slide_btkQC4": {
-          "type": "slide",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-gray-trans.png",
-            "logo-size": 100
-          }
-        },
-        "paragraph_ApMTGG": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_wjme9C",
-        "paragraph_KdpCrK",
-        "email_form_TYMgUk",
-        "slide_btkQC4",
-        "paragraph_ApMTGG"
+        "heading_zHxddR",
+        "text_diXpFa",
+        "buttons_WpdWAP"
       ],
       "settings": {
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image": "shopify:\/\/shop_images\/photo-studio-lit.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multicolumn_EViXGb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_r9cxPq": {
+          "type": "column",
+          "settings": {
+            "title": "WHAT YOU'LL LEARN",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HdChFF": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FJMHby": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_r9cxPq",
+        "column_HdChFF",
+        "column_FJMHby"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "Funnel",
     "image_video_banner_XQntDG",
-    "rich_text_tqxzAA",
-    "image_banner_kWNKbm",
-    "multicolumn_EViXGb",
-    "newsletter_gGdLKB",
     "image_with_text_GLU6cF",
     "image_with_text_4rtT7W",
-    "background_video_LTQzeG",
-    "newsletter_TqnzRm"
+    "image_banner_kWNKbm",
+    "multicolumn_EViXGb"
   ]
 }
