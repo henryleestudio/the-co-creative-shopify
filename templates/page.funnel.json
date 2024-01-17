@@ -180,7 +180,7 @@
         "column_r9cxPq": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/the-co-creative-emblem-crt.png",
+            "image": "shopify:\/\/shop_images\/networking.png",
             "title": "NETWORK",
             "text": "<p>Meet like minded Creative Professionals learn and grow with<\/p>",
             "link_label": "",
@@ -190,7 +190,7 @@
         "column_HdChFF": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/the-co-creative-emblem-crt.png",
+            "image": "shopify:\/\/shop_images\/deal.png",
             "title": "LEARN",
             "text": "<p>Learn State of the Art techniques to take your skills to the next level<\/p>",
             "link_label": "",
@@ -200,7 +200,7 @@
         "column_FJMHby": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/the-co-creative-emblem-crt.png",
+            "image": "shopify:\/\/shop_images\/sketch.png",
             "title": "BUILD",
             "text": "<p>Build your portfolio with master teacher Keith Lewis in real time<\/p>",
             "link_label": "",
