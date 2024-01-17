@@ -80,10 +80,18 @@
     "image_with_text_GLU6cF": {
       "type": "image-with-text",
       "blocks": {
+        "caption_7gBJRr": {
+          "type": "caption",
+          "settings": {
+            "caption": "Meet your instructor",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
         "heading_t6rFYG": {
           "type": "heading",
           "settings": {
-            "heading": "Meet your instructor <strong>Keith Lewis<\/strong>",
+            "heading": "<strong>Keith Lewis<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -105,6 +113,7 @@
         }
       },
       "block_order": [
+        "caption_7gBJRr",
         "heading_t6rFYG",
         "text_PixJB4",
         "button_88jC77"
