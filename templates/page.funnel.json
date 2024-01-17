@@ -190,7 +190,7 @@
         "column_HdChFF": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/the-co-creative-emblem-gray-trans.png",
+            "image": "shopify:\/\/shop_images\/the-co-creative-emblem-crt.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -200,7 +200,7 @@
         "column_FJMHby": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/the-co-creative-favicon-rounded.jpg",
+            "image": "shopify:\/\/shop_images\/the-co-creative-emblem-crt.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
