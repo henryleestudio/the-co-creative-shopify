@@ -100,8 +100,8 @@
         "heading_J6VRNH": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading": "STATE OF THE ART PHOTOGRAPHY STUDIO",
+            "heading_size": "h0"
           }
         },
         "text_y6ydDn": {
@@ -174,7 +174,7 @@
         "buttons_WpdWAP"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/photo-studio-lit.webp",
+        "image": "shopify:\/\/shop_images\/photo-studio-lit-1192x808.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
