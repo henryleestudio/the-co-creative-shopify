@@ -18,11 +18,11 @@
             "heading_size": "h1"
           }
         },
-        "text_qCPVGK": {
-          "type": "text",
+        "heading_gBgkje": {
+          "type": "heading",
           "settings": {
-            "text": "FREE PROFESSIONAL LIGHTING WORKSHOP 2.18.24",
-            "text_style": "caption-with-letter-spacing"
+            "heading": "FREE PROFESSIONAL LIGHTING WORKSHOP 2.18.24",
+            "heading_size": "h2"
           }
         },
         "url_Yx6Vai": {
@@ -34,11 +34,11 @@
             "loop_video": true
           }
         },
-        "text_RwQt6p": {
-          "type": "text",
+        "heading_BCxeqk": {
+          "type": "heading",
           "settings": {
-            "text": "Now accepting 15 candidates",
-            "text_style": "caption-with-letter-spacing"
+            "heading": "Now accepting 15 candidates",
+            "heading_size": "h2"
           }
         },
         "heading_n977fY": {
@@ -56,9 +56,9 @@
       },
       "block_order": [
         "heading_37bkcb",
-        "text_qCPVGK",
+        "heading_gBgkje",
         "url_Yx6Vai",
-        "text_RwQt6p",
+        "heading_BCxeqk",
         "heading_n977fY",
         "email_form_jQFAMV"
       ],
