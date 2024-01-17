@@ -33,11 +33,11 @@
             "loop_video": true
           }
         },
-        "text_8dhYpq": {
-          "type": "text",
+        "heading_7PjMj8": {
+          "type": "heading",
           "settings": {
-            "text": "Now accepting 15 candidates",
-            "text_style": "subtitle"
+            "heading": "Now accepting 15 candidates",
+            "heading_size": "h2"
           }
         },
         "heading_BA3GGF": {
@@ -58,7 +58,7 @@
         "heading_6Wab9n",
         "slide_3Q6Ypj",
         "url_QMMPCG",
-        "text_8dhYpq",
+        "heading_7PjMj8",
         "heading_BA3GGF",
         "email_form_qmekBe"
       ],
