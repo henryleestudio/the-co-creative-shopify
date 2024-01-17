@@ -293,7 +293,7 @@
         "caption_KM3Czx": {
           "type": "caption",
           "settings": {
-            "caption": "Meet your instructor",
+            "caption": "Meet your Host",
             "text_style": "caption-with-letter-spacing",
             "text_size": "large"
           }
@@ -314,6 +314,7 @@
         },
         "button_ap9Jrf": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
