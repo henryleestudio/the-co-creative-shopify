@@ -10,11 +10,11 @@
             "heading_size": "h1"
           }
         },
-        "text_d6NMyq": {
-          "type": "text",
+        "heading_6Wab9n": {
+          "type": "heading",
           "settings": {
-            "text": "FREE PROFESSIONAL LIGHTING WORKSHOP 2.18.24",
-            "text_style": "body"
+            "heading": "FREE PROFESSIONAL LIGHTING WORKSHOP 2.18.24",
+            "heading_size": "h2"
           }
         },
         "slide_3Q6Ypj": {
@@ -55,7 +55,7 @@
       },
       "block_order": [
         "heading_ViyGHK",
-        "text_d6NMyq",
+        "heading_6Wab9n",
         "slide_3Q6Ypj",
         "url_QMMPCG",
         "text_8dhYpq",
