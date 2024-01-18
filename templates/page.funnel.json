@@ -46,7 +46,7 @@
         "heading_NeT6Cj": {
           "type": "heading",
           "settings": {
-            "heading": "Now Accepting 15 Content Creators",
+            "heading": "Accepting 15 Content Creators",
             "heading_size": "h0"
           }
         },
@@ -101,7 +101,7 @@
         "text_y6ydDn": {
           "type": "text",
           "settings": {
-            "text": "<p>• The studio is 1500 square feet <br\/>• Professional grade cyc wall<br\/>• Multiple photo walls<br\/>• Seamless set<br\/>• Black out curtains <br\/>• An array of furniture and props <br\/>• Ample parking<br\/>• Cutting edge equiptment<br\/><br\/>A premier full-service facility catering to photographers, filmmakers, content creators, and creative entrepreneurs in Philadelphia, PA.<\/p>"
+            "text": "<p>• The studio is 1500 square feet <br\/>• Professional grade cyc wall<br\/>• Multiple photo walls<br\/>• Seamless set<br\/>• Black out curtains <br\/>• An array of furniture and props <br\/>• Ample parking<br\/>• Cutting edge equiptment<\/p>"
           }
         }
       },
@@ -154,6 +154,48 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "rich_text_KNK4MJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pT8Vcp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lighting Workshop Qualifications",
+            "heading_size": "h2"
+          }
+        },
+        "text_wnHzje": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As a free professional lighting workshop, Our intention is to work alongside:<br\/><br\/>Photographers, Filmmakers, Content Creators, and Creative Entrepreneurs, who are able to meet in person in the Philadelphia, PA area.<br\/><br\/>Participants must be willing an able to bring their own equipment and come ready to create.<\/p>"
+          }
+        },
+        "button_HgkAHJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Registar Now",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_pT8Vcp",
+        "text_wnHzje",
+        "button_HgkAHJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "multicolumn_EViXGb": {
@@ -400,7 +442,7 @@
         "heading_wjme9C": {
           "type": "heading",
           "settings": {
-            "heading": "FREE STATE OF THE ART PHOTOGRAPHY & LIGHTING WORKSHOP 2.18.24",
+            "heading": "FREE LIGHTING WORKSHOP 2.18.24",
             "heading_size": "h1"
           }
         },
@@ -515,6 +557,7 @@
     "image_video_banner_XQntDG",
     "rich_text_tqxzAA",
     "image_banner_kWNKbm",
+    "rich_text_KNK4MJ",
     "multicolumn_EViXGb",
     "newsletter_gGdLKB",
     "image_with_text_GLU6cF",
