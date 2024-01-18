@@ -91,12 +91,30 @@
     "collapsible_content_KNb86V": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_row_4UNdFP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Address",
+            "icon": "none",
+            "row_content": "<p>3450 Salmon Street, #2e, Port Richmond, Philadelphia, PA 19134<\/p>",
+            "page": ""
+          }
+        },
         "collapsible_row_xjjeq9": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Pricing",
             "icon": "none",
             "row_content": "<p>$75 per hour<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nVtyf3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Opening hours",
+            "icon": "none",
+            "row_content": "<p>Monday – Sunday<br\/>9am – 11pm<\/p>",
             "page": ""
           }
         },
@@ -153,26 +171,18 @@
             "row_content": "<p>There is no smoking or pets allowed in the studio. You are allowed to bring in outside food as well as using any vendors that you like. There is no cooking inside of the studio except for items that can be cooked in the microwave.<\/p>",
             "page": ""
           }
-        },
-        "collapsible_row_nVtyf3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Opening hours",
-            "icon": "none",
-            "row_content": "<p>Monday – Sunday<br\/>9am – 11pm<\/p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
+        "collapsible_row_4UNdFP",
         "collapsible_row_xjjeq9",
+        "collapsible_row_nVtyf3",
         "collapsible_row_ArE33e",
         "collapsible_row_N8AK9J",
         "collapsible_row_WXy7Lg",
         "collapsible_row_rnEFQ8",
         "collapsible_row_n3kCiR",
-        "collapsible_row_iWirH8",
-        "collapsible_row_nVtyf3"
+        "collapsible_row_iWirH8"
       ],
       "settings": {
         "caption": "",
