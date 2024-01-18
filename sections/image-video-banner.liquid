@@ -62,7 +62,7 @@
 
 <div
   id="{{ section.settings.custom-section-id }}"
-  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+ class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
 >
 {% if section.settings.video_banner_background != blank %}
   <div class="video_banner_wrapper">
@@ -139,7 +139,7 @@
         {%- case block.type -%}
 
           {% when 'slide' %}
-            <img {{ block.shopify_attributes }} class="header-logo" src="{{ block.settings.logo | image_url }}" width="{{ block.settings.logo-size }}" alt="Co – Creative, Inc logo"/>
+            <img style="margin: {{ block.settings.logo_margin_top }}px 0px {{ block.settings.logo_margin_bottom }}px 0px;" {{ block.shopify_attributes }} class="header-logo" src="{{ block.settings.logo | image_url }}" width="{{ block.settings.logo-size }}" alt="Co – Creative, Inc logo"/>
 
           {%- when 'url' -%}
           <div class="image-banner__video"> 
@@ -550,6 +550,26 @@
           "unit": "px",
           "label": "Logo size",
           "default": 100
+        },
+        {
+          "type": "range",
+          "id": "logo_margin_top",
+          "min": 0,
+          "max": 200,
+          "step": 5,
+          "unit": "px",
+          "label": "Logo margin top",
+          "default": 10
+        },
+        {
+          "type": "range",
+          "id": "logo_margin_bottom",
+          "min": 0,
+          "max": 200,
+          "step": 5,
+          "unit": "px",
+          "label": "Logo margin bottom",
+          "default": 10
         }
       ]
     },
