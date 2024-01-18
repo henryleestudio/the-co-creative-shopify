@@ -1154,7 +1154,7 @@
           "label": "Second image"
         },
         "image_overlay_opacity": {
-          "label": "Image overlay opacity"
+          "label": "overlay opacity"
         },
         "image_height": {
           "label": "Banner height",
@@ -2748,7 +2748,7 @@
           "label": "Background image"
         },
         "image_overlay_opacity": {
-          "label": "Image overlay opacity"
+          "label": "overlay opacity"
         },
         "show_background_image": {
           "label": "Show background image"
