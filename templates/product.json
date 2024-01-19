@@ -8,6 +8,13 @@
           "settings": {
           }
         },
+        "text_mHkWdh": {
+          "type": "text",
+          "settings": {
+            "text": "Located at 3450 Salmon Street room #2e, Port Richmond, Philadelphia, PA, PA 19134",
+            "text_style": "body"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -28,7 +35,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
         },
@@ -46,6 +53,7 @@
       },
       "block_order": [
         "title",
+        "text_mHkWdh",
         "price",
         "variant_picker",
         "quantity_selector",
@@ -198,11 +206,35 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "background_video_JUypAj": {
+      "type": "background-video",
+      "blocks": {
+        "video_RQLjkL": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4d73c75e7c374af088e2e198c50be21c.mp4",
+            "title": "",
+            "text": "",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "video_RQLjkL"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "collapsible_content_KNb86V"
+    "collapsible_content_KNb86V",
+    "background_video_JUypAj"
   ]
 }
