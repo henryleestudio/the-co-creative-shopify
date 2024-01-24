@@ -37,7 +37,7 @@
         "url_Yx6Vai": {
           "type": "url",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6a7e360e3c484cd99e2937123f886ab3.mp4",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ff445f902edd42a1b12fab7cb9ca10ad.mp4",
             "autoplay": true,
             "show_controls": true,
             "loop_video": true
@@ -117,6 +117,30 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "background_video_GATnLn": {
+      "type": "background-video",
+      "blocks": {
+        "video_MXPtaT": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e62b7bcbf452430bb0e9a9e6886df75a.mp4",
+            "title": "",
+            "text": "",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "video_MXPtaT"
+      ],
+      "disabled": true,
+      "settings": {
       }
     },
     "image_banner_kWNKbm": {
@@ -461,10 +485,10 @@
         "padding_bottom": 36
       }
     },
-    "background_video_LTQzeG": {
+    "background_video_hDFcAm": {
       "type": "background-video",
       "blocks": {
-        "video_Pkrbdx": {
+        "video_9VQAey": {
           "type": "video",
           "settings": {
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4d73c75e7c374af088e2e198c50be21c.mp4",
@@ -479,7 +503,7 @@
         }
       },
       "block_order": [
-        "video_Pkrbdx"
+        "video_9VQAey"
       ],
       "settings": {
       }
@@ -605,6 +629,7 @@
     "Funnel",
     "image_video_banner_XQntDG",
     "rich_text_tqxzAA",
+    "background_video_GATnLn",
     "image_banner_kWNKbm",
     "rich_text_KNK4MJ",
     "rich_text_VpHp9q",
@@ -612,7 +637,7 @@
     "newsletter_gGdLKB",
     "image_with_text_GLU6cF",
     "image_with_text_4rtT7W",
-    "background_video_LTQzeG",
+    "background_video_hDFcAm",
     "newsletter_TqnzRm",
     "collapsible_content_dd4mUT"
   ]
