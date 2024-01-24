@@ -104,7 +104,7 @@
           "settings": {
             "heading": "Location",
             "icon": "none",
-            "row_content": "<p>3450 Salmon Street, #2e, Port Richmond, Philadelphia, PA 19134<br\/><br\/><\/p>",
+            "row_content": "",
             "page": "studio2e-location"
           }
         },
