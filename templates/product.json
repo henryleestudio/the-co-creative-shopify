@@ -102,10 +102,10 @@
         "collapsible_row_4UNdFP": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Address",
+            "heading": "Location",
             "icon": "none",
-            "row_content": "<p>3450 Salmon Street, #2e, Port Richmond, Philadelphia, PA 19134<\/p>",
-            "page": ""
+            "row_content": "<p>3450 Salmon Street, #2e, Port Richmond, Philadelphia, PA 19134<br\/><br\/><\/p>",
+            "page": "studio2e-location"
           }
         },
         "collapsible_row_xjjeq9": {
