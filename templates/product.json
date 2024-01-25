@@ -8,13 +8,6 @@
           "settings": {
           }
         },
-        "text_mHkWdh": {
-          "type": "text",
-          "settings": {
-            "text": "Located at 3450 Salmon Street room #2e, Port Richmond, Philadelphia, PA, PA 19134",
-            "text_style": "body"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -53,7 +46,6 @@
       },
       "block_order": [
         "title",
-        "text_mHkWdh",
         "price",
         "variant_picker",
         "quantity_selector",
