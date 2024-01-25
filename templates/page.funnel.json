@@ -14,8 +14,8 @@
         "heading_37bkcb": {
           "type": "heading",
           "settings": {
-            "heading": "FREE PHOTOGRAPHY & LIGHTING WORKSHOP 2.18.24",
-            "heading_size": "h0"
+            "heading": "FREE LIGHTING WORKSHOP 2.18.24",
+            "heading_size": "h1"
           }
         },
         "heading_HDYcAp": {
@@ -37,7 +37,7 @@
         "url_Yx6Vai": {
           "type": "url",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6a7e360e3c484cd99e2937123f886ab3.mp4",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ff445f902edd42a1b12fab7cb9ca10ad.mp4",
             "autoplay": true,
             "show_controls": true,
             "loop_video": true
@@ -46,7 +46,7 @@
         "heading_NeT6Cj": {
           "type": "heading",
           "settings": {
-            "heading": "Now Accepting 15 Content Creators",
+            "heading": "Accepting 15 Content Creators",
             "heading_size": "h0"
           }
         },
@@ -76,8 +76,9 @@
         "custom-section-id": "",
         "video_banner_background": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4d73c75e7c374af088e2e198c50be21c.mp4",
         "video_background": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6a7e360e3c484cd99e2937123f886ab3.mp4",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "color_overlay": "{{ shop.brand.colors.secondary[1].background }}",
+        "image_overlay_opacity": 20,
+        "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -95,13 +96,13 @@
           "type": "heading",
           "settings": {
             "heading": "STATE OF THE ART PHOTOGRAPHY STUDIO",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "text_y6ydDn": {
           "type": "text",
           "settings": {
-            "text": "<p>• The studio is 1500 square feet <br\/>• Professional grade cyc wall<br\/>• Multiple photo walls<br\/>• Seamless set<br\/>• Black out curtains <br\/>• An array of furniture and props <br\/>• Ample parking<br\/>• Cutting edge equiptment<br\/><br\/>A premier full-service facility catering to photographers, filmmakers, content creators, and creative entrepreneurs in the heart of Philadelphia.<\/p>"
+            "text": "<p>• The studio is 1500 square feet <br\/>• Professional grade cyc wall<br\/>• Multiple photo walls<br\/>• Seamless set<br\/>• Black out curtains <br\/>• An array of furniture and props <br\/>• Ample parking<br\/>• Cutting edge equiptment<\/p>"
           }
         }
       },
@@ -116,6 +117,30 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "background_video_GATnLn": {
+      "type": "background-video",
+      "blocks": {
+        "video_MXPtaT": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e62b7bcbf452430bb0e9a9e6886df75a.mp4",
+            "title": "",
+            "text": "",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "video_MXPtaT"
+      ],
+      "disabled": true,
+      "settings": {
       }
     },
     "image_banner_kWNKbm": {
@@ -154,6 +179,94 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "rich_text_KNK4MJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pT8Vcp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Intro Lighting Workshop",
+            "heading_size": "h1"
+          }
+        },
+        "text_wnHzje": {
+          "type": "text",
+          "settings": {
+            "text": "<p>3 point lighting Photography<br\/><br\/>Live model shoot<br\/><br\/>Portfolio building with master photographer<\/p>"
+          }
+        },
+        "button_HgkAHJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Registar Now",
+            "button_link": "#registar-form-2",
+            "button_style_secondary": false,
+            "padding-top": 45,
+            "padding-bottom": 10,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_pT8Vcp",
+        "text_wnHzje",
+        "button_HgkAHJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_VpHp9q": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WLDerx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lighting Workshop Qualifications",
+            "heading_size": "h1"
+          }
+        },
+        "text_7HXnxH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As a free professional lighting workshop, our intention is to work alongside:<br\/><br\/>Photographers, Filmmakers, Content Creators, Influencers, and Creative Entrepreneurs.<br\/><br\/>Participants must be willing and able to meet in Philadelphia, PA, with their cameras and supporting equipment, ready to create.<\/p>"
+          }
+        },
+        "button_hUyNRm": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "#registar-form-2",
+            "button_style_secondary": false,
+            "padding-top": 10,
+            "padding-bottom": 10,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_WLDerx",
+        "text_7HXnxH",
+        "button_hUyNRm"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
       }
     },
     "multicolumn_EViXGb": {
@@ -251,6 +364,7 @@
         "slide_nT46ri"
       ],
       "settings": {
+        "custom-section-id": "registar-form-2",
         "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 40,
@@ -335,7 +449,7 @@
         "text_DjJ9TA": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review....<\/p>",
+            "text": "<p>If an image holds a thousand words, I am a builder of libraries. With a profound connection to the human narrative, I capture life's moments like chapters in a novel. Using my camera as a tool, I fold the pages of time, creating a visual tapestry that highlights memories of marvelous moments. <br\/><br\/>My artistry lies in harnessing light, color, and form to bring forth a compelling vision. Passionate about people, our emotions, and our design, I approach photography as a medium to collect and preserve memories with precision and artistry.<\/p>",
             "text_style": "body"
           }
         },
@@ -371,10 +485,10 @@
         "padding_bottom": 36
       }
     },
-    "background_video_LTQzeG": {
+    "background_video_hDFcAm": {
       "type": "background-video",
       "blocks": {
-        "video_Pkrbdx": {
+        "video_9VQAey": {
           "type": "video",
           "settings": {
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4d73c75e7c374af088e2e198c50be21c.mp4",
@@ -389,7 +503,7 @@
         }
       },
       "block_order": [
-        "video_Pkrbdx"
+        "video_9VQAey"
       ],
       "settings": {
       }
@@ -400,7 +514,7 @@
         "heading_wjme9C": {
           "type": "heading",
           "settings": {
-            "heading": "FREE STATE OF THE ART PHOTOGRAPHY & LIGHTING WORKSHOP 2.18.24",
+            "heading": "FREE LIGHTING WORKSHOP 2.18.24",
             "heading_size": "h1"
           }
         },
@@ -432,6 +546,7 @@
         "slide_btkQC4"
       ],
       "settings": {
+        "custom-section-id": "",
         "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 40,
@@ -514,12 +629,15 @@
     "Funnel",
     "image_video_banner_XQntDG",
     "rich_text_tqxzAA",
+    "background_video_GATnLn",
     "image_banner_kWNKbm",
+    "rich_text_KNK4MJ",
+    "rich_text_VpHp9q",
     "multicolumn_EViXGb",
     "newsletter_gGdLKB",
     "image_with_text_GLU6cF",
     "image_with_text_4rtT7W",
-    "background_video_LTQzeG",
+    "background_video_hDFcAm",
     "newsletter_TqnzRm",
     "collapsible_content_dd4mUT"
   ]

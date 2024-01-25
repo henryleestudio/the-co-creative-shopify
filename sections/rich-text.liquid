@@ -55,6 +55,7 @@
               </div>
             {%- when 'button' -%}
               <div
+                style="margin: {{ block.settings.padding-top }}px 0px {{ block.settings.padding-bottom }}px 0px;"
                 class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
@@ -303,6 +304,24 @@
           "id": "button_style_secondary",
           "default": false,
           "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_1.label"
+        },
+        {
+          "type": "range",
+          "id": "padding-top",
+          "min": 0,
+          "max": 100,
+          "step": 5,
+          "label": "Buttom padding top",
+          "default": 10
+        },
+        {
+          "type": "range",
+          "id": "padding-bottom",
+          "min": 0,
+          "max": 100,
+          "step": 5,
+          "label": "Buttom padding bottom",
+          "default": 10
         },
         {
           "type": "text",

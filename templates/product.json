@@ -28,7 +28,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
         },
@@ -94,10 +94,10 @@
         "collapsible_row_4UNdFP": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Address",
+            "heading": "Location",
             "icon": "none",
-            "row_content": "<p>3450 Salmon Street, #2e, Port Richmond, Philadelphia, PA 19134<\/p>",
-            "page": ""
+            "row_content": "",
+            "page": "studio2e-location"
           }
         },
         "collapsible_row_xjjeq9": {
@@ -198,11 +198,35 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "background_video_JUypAj": {
+      "type": "background-video",
+      "blocks": {
+        "video_RQLjkL": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4d73c75e7c374af088e2e198c50be21c.mp4",
+            "title": "",
+            "text": "",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "video_RQLjkL"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "collapsible_content_KNb86V"
+    "collapsible_content_KNb86V",
+    "background_video_JUypAj"
   ]
 }
