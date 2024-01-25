@@ -222,51 +222,12 @@
       ],
       "settings": {
       }
-    },
-    "17061987133b7aea54": {
-      "type": "apps",
-      "blocks": {
-        "meety_button_book_86Nmaw": {
-          "type": "shopify:\/\/apps\/meety\/blocks\/button-book\/47f38863-0648-44e3-873d-c84301243dcb",
-          "settings": {
-            "horizontal_alignment": "center",
-            "width": "100%",
-            "height": "48px",
-            "margin": "30px 0px 30px 0px",
-            "border_radius": 10,
-            "font_family": "raleway_n4",
-            "font_size": 14,
-            "schedule_text": "Schedule your time",
-            "schedule_text_color": "#fffffd",
-            "schedule_background_color": "#000001",
-            "schedule_border_color": "#000001",
-            "schedule_border_width": 0,
-            "subs_manage_text": "Manage your purchased subscription",
-            "subs_manage_text_color": "#000001",
-            "subs_manage_background_color": "#fffffd",
-            "subs_manage_border_color": "#000001",
-            "subs_manage_border_width": 1,
-            "subs_book_text": "Book now",
-            "subs_book_text_color": "#fffffd",
-            "subs_book_background_color": "#000001",
-            "subs_book_border_color": "#000001",
-            "subs_book_border_width": 0
-          }
-        }
-      },
-      "block_order": [
-        "meety_button_book_86Nmaw"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "main",
     "related-products",
     "collapsible_content_KNb86V",
-    "background_video_JUypAj",
-    "17061987133b7aea54"
+    "background_video_JUypAj"
   ]
 }
