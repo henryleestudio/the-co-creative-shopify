@@ -155,18 +155,18 @@
           "font_size": 14,
           "schedule_text": "Schedule your time",
           "schedule_text_color": "#fffffd",
-          "schedule_background_color": "#000001",
-          "schedule_border_color": "#000001",
+          "schedule_background_color": "#202020",
+          "schedule_border_color": "#202020",
           "schedule_border_width": 0,
           "subs_manage_text": "Manage your purchased subscription",
-          "subs_manage_text_color": "#000001",
+          "subs_manage_text_color": "#202020",
           "subs_manage_background_color": "#fffffd",
-          "subs_manage_border_color": "#000001",
+          "subs_manage_border_color": "#202020",
           "subs_manage_border_width": 1,
           "subs_book_text": "Book now",
           "subs_book_text_color": "#fffffd",
-          "subs_book_background_color": "#000001",
-          "subs_book_border_color": "#000001",
+          "subs_book_background_color": "#202020",
+          "subs_book_border_color": "#202020",
           "subs_book_border_width": 0
         }
       }
@@ -188,7 +188,7 @@
           "background": "{{ shop.brand.colors.primary[0].foreground }}",
           "background_gradient": "",
           "text": "#121212",
-          "button": "{{ shop.brand.colors.primary[0].background }}",
+          "button": "{{ shop.brand.colors.secondary[0].background }}",
           "button_label": "{{ shop.brand.colors.primary[0].foreground }}",
           "secondary_button_label": "#121212",
           "shadow": "{{ shop.brand.colors.secondary[0].background }}"

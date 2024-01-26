@@ -1,7 +1,3 @@
-.banner__content {
-  padding: 0 5rem 5rem 5rem !important;
-}
-
 .header-logo {
   display: inline-block;
   margin: 0px 0 16px 0;
@@ -80,4 +76,12 @@
 
 .multi-column-icons {
   margin: 0 30% 10px 30%;
+}
+
+.banner__content {
+  padding: 0px !important;
+}
+
+.banner__box {
+  padding: 4rem 1.5rem !important;
 }
