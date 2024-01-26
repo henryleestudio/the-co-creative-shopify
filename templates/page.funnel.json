@@ -74,7 +74,7 @@
       ],
       "settings": {
         "custom-section-id": "",
-        "video_banner_background": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4d73c75e7c374af088e2e198c50be21c.mp4",
+        "video_banner_background": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8dad4613536d47ca8f81f3a75221b3a3.mp4",
         "video_background": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6a7e360e3c484cd99e2937123f886ab3.mp4",
         "color_overlay": "{{ shop.brand.colors.secondary[1].background }}",
         "image_overlay_opacity": 20,
@@ -111,6 +111,7 @@
         "text_y6ydDn"
       ],
       "settings": {
+        "section_css_class": "Add CSS class",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-2",
@@ -217,6 +218,7 @@
         "button_HgkAHJ"
       ],
       "settings": {
+        "section_css_class": "Add CSS class",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
@@ -261,6 +263,7 @@
         "button_hUyNRm"
       ],
       "settings": {
+        "section_css_class": "Add CSS class",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
@@ -491,7 +494,7 @@
         "video_9VQAey": {
           "type": "video",
           "settings": {
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4d73c75e7c374af088e2e198c50be21c.mp4",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8dad4613536d47ca8f81f3a75221b3a3.mp4",
             "title": "",
             "text": "",
             "color_text": "#ffffff",
