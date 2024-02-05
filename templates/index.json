@@ -21,7 +21,9 @@
           "type": "slide",
           "settings": {
             "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-wht-trans.png",
-            "logo-size": 40
+            "logo-size": 40,
+            "logo_margin_top": 10,
+            "logo_margin_bottom": 10
           }
         },
         "url_QMMPCG": {
@@ -64,9 +66,10 @@
       ],
       "settings": {
         "custom-section-id": "",
-        "video_banner_background": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4d73c75e7c374af088e2e198c50be21c.mp4",
+        "video_banner_background": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8dad4613536d47ca8f81f3a75221b3a3.mp4",
         "image": "shopify:\/\/shop_images\/Screenshot_2024-01-05_at_2.22.02_PM.png",
         "video_background": "",
+        "color_overlay": "#000000",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -144,6 +147,7 @@
         "template--21758548345110__380e9c9b-0fdb-4113-88ef-4340550b015a-email_form-1"
       ],
       "settings": {
+        "custom-section-id": "",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
@@ -242,6 +246,8 @@
             "button_label": "Button label",
             "button_link": "",
             "button_style_secondary": false,
+            "padding-top": 10,
+            "padding-bottom": 10,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -254,6 +260,7 @@
         "template--21758548345110__5d4df420-4689-48ba-afb7-0e64ddd588b5-button-1"
       ],
       "settings": {
+        "section_css_class": "Add CSS class",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
@@ -437,6 +444,7 @@
         "custom-section-id": "",
         "video_banner_background": "",
         "video_background": "",
+        "color_overlay": "#000000",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
