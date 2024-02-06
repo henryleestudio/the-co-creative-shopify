@@ -10,6 +10,7 @@
     }
   
   .image-banner__video {
+    position: relative;
     display: flex;
     align-items: center;
   }
@@ -17,6 +18,18 @@
   .image-banner__video video {
     border-radius: 9px;
     width: 100%;
+  }
+
+  .image-banner__video::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-image: url("https://cdn.shopify.com/s/files/1/0818/2130/3062/files/vsl-unmute-btn-img-overlay.webp?v=1707168401");
   }
 
   .headline {
@@ -42,14 +55,6 @@
   .headline__container {
     min-width: 200px;
   }
-  
-  // .title-md {
-  //   font-size: 40px;
-  //   font-family: 'Raleway', sans-serif;
-  //   font-weight: 400;
-  //   letter-spacing: 1px;
-  //   padding: 0px 0 0px 0;
-  // }
   
   .title-lg {
     font-weight: 500;
