@@ -144,7 +144,7 @@
         {%- case block.type -%}
 
           {% when 'slide' %}
-            <img style="margin: {{ block.settings.logo_margin_top }}px 0px {{ block.settings.logo_margin_bottom }}px 0px;" {{ block.shopify_attributes }} class="header-logo" src="{{ block.settings.logo | image_url }}" width="{{ block.settings.logo-size }}" alt="Co – Creative, Inc logo"/>
+            <img loading="lazy" style="margin: {{ block.settings.logo_margin_top }}px 0px {{ block.settings.logo_margin_bottom }}px 0px;" {{ block.shopify_attributes }} class="header-logo" src="{{ block.settings.logo | image_url }}" width="{{ block.settings.logo-size }}" alt="Co – Creative, Inc logo"/>
 
           {%- when 'url' -%}
           <div class="image-banner__video imgOverlay"> 
