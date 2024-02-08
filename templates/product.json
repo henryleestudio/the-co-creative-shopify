@@ -8,6 +8,13 @@
           "settings": {
           }
         },
+        "text_haG4f7": {
+          "type": "text",
+          "settings": {
+            "text": "3450 Salmon Street - Studio #2e, Port Richmond, Philadelphia PA 19134",
+            "text_style": "body"
+          }
+        },
         "price": {
           "type": "price",
           "disabled": true,
@@ -47,6 +54,7 @@
       },
       "block_order": [
         "title",
+        "text_haG4f7",
         "price",
         "variant_picker",
         "quantity_selector",
