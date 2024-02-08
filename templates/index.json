@@ -146,6 +146,7 @@
         "template--21758548345110__380e9c9b-0fdb-4113-88ef-4340550b015a-paragraph-1",
         "template--21758548345110__380e9c9b-0fdb-4113-88ef-4340550b015a-email_form-1"
       ],
+      "disabled": true,
       "settings": {
         "custom-section-id": "",
         "color_scheme": "",
@@ -209,6 +210,7 @@
         "template--21758548345110__a6dd5950-b2ee-415d-86a9-d6344ccbed89-buy_buttons-1",
         "template--21758548345110__a6dd5950-b2ee-415d-86a9-d6344ccbed89-share-1"
       ],
+      "disabled": true,
       "settings": {
         "product": "the-co-creative-application",
         "color_scheme": "accent-1",
@@ -259,6 +261,7 @@
         "template--21758548345110__5d4df420-4689-48ba-afb7-0e64ddd588b5-text-1",
         "template--21758548345110__5d4df420-4689-48ba-afb7-0e64ddd588b5-button-1"
       ],
+      "disabled": true,
       "settings": {
         "section_css_class": "Add CSS class",
         "desktop_content_position": "center",
@@ -300,6 +303,7 @@
         "template--21758548345110__c1f4cd4d-9f17-4f2e-ae41-16388628d390-text-1",
         "template--21758548345110__c1f4cd4d-9f17-4f2e-ae41-16388628d390-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Screenshot_2024-01-06_at_12.28.42_PM.png",
         "height": "adapt",
@@ -362,6 +366,7 @@
         "template--21758548345110__41bb8a7b-9ccb-4539-8198-9fe8f65a94f5-collapsible_row-3",
         "template--21758548345110__41bb8a7b-9ccb-4539-8198-9fe8f65a94f5-collapsible_row-4"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Collapsible content",
@@ -397,6 +402,7 @@
       "block_order": [
         "template--21758548345110__c879253d-3d32-4823-88c6-112a1a63f80c-video-1"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -440,6 +446,7 @@
         "buttons_fB6FQx",
         "email_form_rBFyKf"
       ],
+      "disabled": true,
       "settings": {
         "custom-section-id": "",
         "video_banner_background": "",
@@ -483,6 +490,7 @@
         "paragraph_UFCEPq",
         "email_form_JiPBPd"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "full_width": true
