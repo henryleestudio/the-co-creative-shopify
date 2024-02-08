@@ -7,7 +7,14 @@
   \***********************/
 /***/ (() => {
 
+// Toggle VSL image
 
+var video = document.getElementById("vsl");
+var videoOverlay = document.querySelector('.image-banner__video');
+videoOverlay.addEventListener("click", toggleMute = function toggleMute() {
+  video.muted = !video.muted;
+  videoOverlay.classList.remove('imgOverlay');
+});
 
 /***/ }),
 

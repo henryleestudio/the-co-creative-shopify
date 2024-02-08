@@ -6,14 +6,14 @@
         "heading_ViyGHK": {
           "type": "heading",
           "settings": {
-            "heading": "NETWORK & SHOOT",
+            "heading": "FREE LIGHTING WORKSHOP 2.18.24",
             "heading_size": "h1"
           }
         },
         "heading_6Wab9n": {
           "type": "heading",
           "settings": {
-            "heading": "FREE PROFESSIONAL LIGHTING WORKSHOP 2.18.24",
+            "heading": "📸 ✨ NETWORK & SHOOT ✨ 📸",
             "heading_size": "h2"
           }
         },
@@ -21,7 +21,9 @@
           "type": "slide",
           "settings": {
             "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-wht-trans.png",
-            "logo-size": 40
+            "logo-size": 40,
+            "logo_margin_top": 10,
+            "logo_margin_bottom": 10
           }
         },
         "url_QMMPCG": {
@@ -36,14 +38,14 @@
         "heading_7PjMj8": {
           "type": "heading",
           "settings": {
-            "heading": "Now Accepting 15 Candidates",
-            "heading_size": "h2"
+            "heading": "Accepting 15 Content Creators",
+            "heading_size": "h0"
           }
         },
         "heading_BA3GGF": {
           "type": "heading",
           "settings": {
-            "heading": "Registar Below",
+            "heading": "Register Below",
             "heading_size": "h2"
           }
         },
@@ -64,9 +66,10 @@
       ],
       "settings": {
         "custom-section-id": "",
-        "video_banner_background": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4d73c75e7c374af088e2e198c50be21c.mp4",
+        "video_banner_background": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8dad4613536d47ca8f81f3a75221b3a3.mp4",
         "image": "shopify:\/\/shop_images\/Screenshot_2024-01-05_at_2.22.02_PM.png",
         "video_background": "",
+        "color_overlay": "#000000",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -143,7 +146,9 @@
         "template--21758548345110__380e9c9b-0fdb-4113-88ef-4340550b015a-paragraph-1",
         "template--21758548345110__380e9c9b-0fdb-4113-88ef-4340550b015a-email_form-1"
       ],
+      "disabled": true,
       "settings": {
+        "custom-section-id": "",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
@@ -205,6 +210,7 @@
         "template--21758548345110__a6dd5950-b2ee-415d-86a9-d6344ccbed89-buy_buttons-1",
         "template--21758548345110__a6dd5950-b2ee-415d-86a9-d6344ccbed89-share-1"
       ],
+      "disabled": true,
       "settings": {
         "product": "the-co-creative-application",
         "color_scheme": "accent-1",
@@ -242,6 +248,8 @@
             "button_label": "Button label",
             "button_link": "",
             "button_style_secondary": false,
+            "padding-top": 10,
+            "padding-bottom": 10,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -253,7 +261,9 @@
         "template--21758548345110__5d4df420-4689-48ba-afb7-0e64ddd588b5-text-1",
         "template--21758548345110__5d4df420-4689-48ba-afb7-0e64ddd588b5-button-1"
       ],
+      "disabled": true,
       "settings": {
+        "section_css_class": "Add CSS class",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
@@ -293,6 +303,7 @@
         "template--21758548345110__c1f4cd4d-9f17-4f2e-ae41-16388628d390-text-1",
         "template--21758548345110__c1f4cd4d-9f17-4f2e-ae41-16388628d390-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Screenshot_2024-01-06_at_12.28.42_PM.png",
         "height": "adapt",
@@ -355,6 +366,7 @@
         "template--21758548345110__41bb8a7b-9ccb-4539-8198-9fe8f65a94f5-collapsible_row-3",
         "template--21758548345110__41bb8a7b-9ccb-4539-8198-9fe8f65a94f5-collapsible_row-4"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Collapsible content",
@@ -390,6 +402,7 @@
       "block_order": [
         "template--21758548345110__c879253d-3d32-4823-88c6-112a1a63f80c-video-1"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -433,10 +446,12 @@
         "buttons_fB6FQx",
         "email_form_rBFyKf"
       ],
+      "disabled": true,
       "settings": {
         "custom-section-id": "",
         "video_banner_background": "",
         "video_background": "",
+        "color_overlay": "#000000",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -475,6 +490,7 @@
         "paragraph_UFCEPq",
         "email_form_JiPBPd"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "full_width": true
