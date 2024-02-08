@@ -29,7 +29,7 @@
         "url_QMMPCG": {
           "type": "url",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6a7e360e3c484cd99e2937123f886ab3.mp4",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/61b33910c08f4ccdaa530d91d1869115.mp4",
             "autoplay": true,
             "show_controls": true,
             "loop_video": true
@@ -67,7 +67,6 @@
       "settings": {
         "custom-section-id": "",
         "video_banner_background": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8dad4613536d47ca8f81f3a75221b3a3.mp4",
-        "image": "shopify:\/\/shop_images\/Screenshot_2024-01-05_at_2.22.02_PM.png",
         "video_background": "",
         "color_overlay": "#000000",
         "image_overlay_opacity": 0,
