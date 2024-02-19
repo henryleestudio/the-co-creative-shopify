@@ -199,9 +199,8 @@
             "heading_size": "h2"
           }
         },
-        "text_WwDLjC": {
+        "text_j8BcLd": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p>This workshop is designed for Photographers, Filmmakers, Content Creators, Influencers, and Creative Entrepreneurs.<\/p>"
           }
@@ -212,11 +211,11 @@
             "text": "<p>Attendees should be prepared to meet in Philadelphia, PA, equipped with their cameras and necessary gear, ready to create.<\/p>"
           }
         },
-        "button_hUyNRm": {
+        "button_Dp9zPF": {
           "type": "button",
           "settings": {
-            "button_label": "",
-            "button_link": "#registar-form-2",
+            "button_label": "Registar Now",
+            "button_link": "",
             "button_style_secondary": false,
             "padding-top": 10,
             "padding-bottom": 10,
@@ -229,9 +228,9 @@
       "block_order": [
         "heading_g4cxF6",
         "heading_WLDerx",
-        "text_WwDLjC",
+        "text_j8BcLd",
         "text_7HXnxH",
-        "button_hUyNRm"
+        "button_Dp9zPF"
       ],
       "settings": {
         "section_css_class": "Add CSS class",
@@ -239,8 +238,8 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 52
+        "padding_top": 52,
+        "padding_bottom": 0
       }
     },
     "rich_text_KNK4MJ": {
@@ -271,6 +270,7 @@
         },
         "button_HgkAHJ": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Registar Now",
             "button_link": "#registar-form-2",
@@ -289,6 +289,7 @@
         "text_wnHzje",
         "button_HgkAHJ"
       ],
+      "disabled": true,
       "settings": {
         "section_css_class": "Add CSS class",
         "desktop_content_position": "center",
@@ -320,6 +321,7 @@
         },
         "text_UYCzRW": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>This workshop is designed for Photographers, Filmmakers, Content Creators, Influencers, and Creative Entrepreneurs.<\/p>"
           }
