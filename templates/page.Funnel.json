@@ -199,12 +199,6 @@
             "heading_size": "h2"
           }
         },
-        "text_j8BcLd": {
-          "type": "text",
-          "settings": {
-            "text": "<p>This workshop is designed for Photographers, Filmmakers, Content Creators, Influencers, and Creative Entrepreneurs.<\/p>"
-          }
-        },
         "text_7HXnxH": {
           "type": "text",
           "settings": {
@@ -223,14 +217,20 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "text_j8BcLd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This workshop is designed for Photographers, Filmmakers, Content Creators, Influencers, and Creative Entrepreneurs.<\/p>"
+          }
         }
       },
       "block_order": [
         "heading_g4cxF6",
         "heading_WLDerx",
-        "text_j8BcLd",
         "text_7HXnxH",
-        "button_Dp9zPF"
+        "button_Dp9zPF",
+        "text_j8BcLd"
       ],
       "settings": {
         "section_css_class": "Add CSS class",
