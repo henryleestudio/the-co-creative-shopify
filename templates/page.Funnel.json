@@ -182,6 +182,67 @@
         "show_text_below": true
       }
     },
+    "rich_text_VpHp9q": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_g4cxF6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Professional Lighting Workshop",
+            "heading_size": "h1"
+          }
+        },
+        "heading_WLDerx": {
+          "type": "heading",
+          "settings": {
+            "heading": "• 3 point lighting techniques • Live model shoot • Portfolio building",
+            "heading_size": "h2"
+          }
+        },
+        "text_WwDLjC": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>This workshop is designed for Photographers, Filmmakers, Content Creators, Influencers, and Creative Entrepreneurs.<\/p>"
+          }
+        },
+        "text_7HXnxH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Attendees should be prepared to meet in Philadelphia, PA, equipped with their cameras and necessary gear, ready to create.<\/p>"
+          }
+        },
+        "button_hUyNRm": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "#registar-form-2",
+            "button_style_secondary": false,
+            "padding-top": 10,
+            "padding-bottom": 10,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_g4cxF6",
+        "heading_WLDerx",
+        "text_WwDLjC",
+        "text_7HXnxH",
+        "button_hUyNRm"
+      ],
+      "settings": {
+        "section_css_class": "Add CSS class",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_KNK4MJ": {
       "type": "rich-text",
       "blocks": {
@@ -238,23 +299,18 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_VpHp9q": {
+    "rich_text_MRhC6x": {
       "type": "rich-text",
       "blocks": {
-        "heading_g4cxF6": {
+        "heading_V8wL3p": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "Professional Lighting Workshop",
-            "heading_size": "h1"
+            "heading": "• 3 point lighting techniques • Live model shoot • Portfolio building",
+            "heading_size": "h2"
           }
         },
-        "text_WwDLjC": {
-          "type": "text",
-          "settings": {
-            "text": "<p>This workshop is designed for Photographers, Filmmakers, Content Creators, Influencers, and Creative Entrepreneurs.<\/p>"
-          }
-        },
-        "heading_WLDerx": {
+        "heading_brqGDP": {
           "type": "heading",
           "disabled": true,
           "settings": {
@@ -262,14 +318,13 @@
             "heading_size": "h1"
           }
         },
-        "text_7HXnxH": {
+        "text_UYCzRW": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Attendees should be prepared to meet in Philadelphia, PA, equipped with their cameras and necessary gear, ready to create.<\/p>"
+            "text": "<p>This workshop is designed for Photographers, Filmmakers, Content Creators, Influencers, and Creative Entrepreneurs.<\/p>"
           }
         },
-        "button_hUyNRm": {
+        "button_hq89G4": {
           "type": "button",
           "settings": {
             "button_label": "",
@@ -284,11 +339,10 @@
         }
       },
       "block_order": [
-        "heading_g4cxF6",
-        "text_WwDLjC",
-        "heading_WLDerx",
-        "text_7HXnxH",
-        "button_hUyNRm"
+        "heading_V8wL3p",
+        "heading_brqGDP",
+        "text_UYCzRW",
+        "button_hq89G4"
       ],
       "settings": {
         "section_css_class": "Add CSS class",
@@ -355,60 +409,6 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "rich_text_MRhC6x": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_V8wL3p": {
-          "type": "heading",
-          "settings": {
-            "heading": "• 3 point lighting techniques • Live model shoot • Portfolio building",
-            "heading_size": "h2"
-          }
-        },
-        "heading_brqGDP": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Lighting Workshop Qualifications",
-            "heading_size": "h1"
-          }
-        },
-        "text_UYCzRW": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Attendees should be prepared to meet in Philadelphia, PA, equipped with their cameras and necessary gear, ready to create.<\/p>"
-          }
-        },
-        "button_hq89G4": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "#registar-form-2",
-            "button_style_secondary": false,
-            "padding-top": 10,
-            "padding-bottom": 10,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_V8wL3p",
-        "heading_brqGDP",
-        "text_UYCzRW",
-        "button_hq89G4"
-      ],
-      "settings": {
-        "section_css_class": "Add CSS class",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 52
       }
     },
     "newsletter_gGdLKB": {
@@ -716,10 +716,10 @@
     "rich_text_tqxzAA",
     "background_video_GATnLn",
     "image_banner_kWNKbm",
-    "rich_text_KNK4MJ",
     "rich_text_VpHp9q",
-    "multicolumn_EViXGb",
+    "rich_text_KNK4MJ",
     "rich_text_MRhC6x",
+    "multicolumn_EViXGb",
     "newsletter_gGdLKB",
     "image_with_text_GLU6cF",
     "image_with_text_4rtT7W",
