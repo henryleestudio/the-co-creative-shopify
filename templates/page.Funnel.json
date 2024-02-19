@@ -101,8 +101,9 @@
         },
         "text_y6ydDn": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>• The studio is 1500 square feet <br\/>• Professional grade cyc wall<br\/>• Multiple photo walls<br\/>• Seamless set<br\/>• Black out curtains <br\/>• An array of furniture and props <br\/>• Ample parking<br\/>• Cutting edge equiptment<\/p>"
+            "text": "<p>• The studio is 1500 square feet <br\/>• Professional Cyc Wall<br\/>• Photo walls<br\/>• Seamless set<br\/>• Black out curtains <br\/>• An array of furniture and props <br\/>• Ample parking<br\/>• Cutting edge equiptment<\/p>"
           }
         }
       },
@@ -149,18 +150,17 @@
       "blocks": {
         "heading_zHxddR": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "heading": "1500 square feet Studio | Professional Grade Cyc Wall | Photo Walls | Infinity Walls | Black Out Curtains | Festivity Furniture & Props | Flexible Parking | Cutting Edge Equipment",
+            "heading_size": "h2"
           }
         },
         "text_diXpFa": {
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "The Studio is 1500 square feet | Professional Grade Cyc Wall | Photo Walls | Seamless Set | Black out curtains | Festivity Furniture & Props | Ample Parking | Cutting Edge Equipment",
+            "text_style": "subtitle"
           }
         }
       },
@@ -170,7 +170,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/photo-studio-lit.webp",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 50,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
