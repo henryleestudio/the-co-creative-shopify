@@ -196,7 +196,7 @@
       },
       "inverse": {
         "settings": {
-          "background": "#242833",
+          "background": "{{ shop.brand.colors.secondary[0].background }}",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
@@ -218,12 +218,12 @@
       },
       "accent-2": {
         "settings": {
-          "background": "#334fb4",
+          "background": "#ffffff",
           "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#ffffff",
-          "button_label": "#334fb4",
-          "secondary_button_label": "#ffffff",
+          "text": "{{ shop.brand.colors.secondary[1].background }}",
+          "button": "{{ shop.brand.colors.primary[0].background }}",
+          "button_label": "{{ shop.brand.colors.primary[0].background }}",
+          "secondary_button_label": "{{ shop.brand.colors.primary[0].background }}",
           "shadow": "#121212"
         }
       },
