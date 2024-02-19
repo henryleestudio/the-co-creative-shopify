@@ -346,6 +346,7 @@
         "text_UYCzRW",
         "button_hq89G4"
       ],
+      "disabled": true,
       "settings": {
         "section_css_class": "Add CSS class",
         "desktop_content_position": "center",
