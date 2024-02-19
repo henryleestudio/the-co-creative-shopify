@@ -230,7 +230,7 @@
       "scheme-d2f4cea3-b6bc-4487-9274-dbeb484e9f82": {
         "settings": {
           "background": "{{ shop.brand.colors.primary[0].background }}",
-          "background_gradient": "",
+          "background_gradient": "linear-gradient(46deg, rgba(52, 133, 236, 1) 13%, rgba(170, 248, 219, 1) 86%)",
           "text": "{{ shop.brand.colors.secondary[0].foreground }}",
           "button": "{{ shop.brand.colors.primary[0].background }}",
           "button_label": "{{ shop.brand.colors.primary[0].foreground }}",

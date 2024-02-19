@@ -151,7 +151,7 @@
         "heading_zHxddR": {
           "type": "heading",
           "settings": {
-            "heading": "• 1500 SQUARE FEET STUDIO • PROFESSIONAL GRADE CYC WALL • PHOTO WALLS • INFINITY WALLS • BLACK OUT CURTAINS • FESTIVITY FURNITURE & PROPS • FLEXIBLE PARKING • CUTTING EDGE EQUIPMENT",
+            "heading": "1500 SQUARE FEET STUDIO • PROFESSIONAL GRADE CYC WALL | PHOTO WALLS | INFINITY WALLS | BLACK OUT CURTAINS | FESTIVITY FURNITURE & PROPS | FLEXIBLE PARKING | CUTTING EDGE EQUIPMENT",
             "heading_size": "h2"
           }
         },
@@ -170,7 +170,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/photo-studio-lit.webp",
-        "image_overlay_opacity": 50,
+        "image_overlay_opacity": 30,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
@@ -192,8 +192,16 @@
             "heading_size": "h1"
           }
         },
+        "heading_XHDyJV": {
+          "type": "heading",
+          "settings": {
+            "heading": "3 point lighting techniques • Live model shoot • Portfolio building",
+            "heading_size": "h2"
+          }
+        },
         "text_wnHzje": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>3 point lighting techniques<br\/><br\/>Live model shoot<br\/><br\/>Portfolio building with master photographer<\/p>"
           }
@@ -214,6 +222,7 @@
       },
       "block_order": [
         "heading_pT8Vcp",
+        "heading_XHDyJV",
         "text_wnHzje",
         "button_HgkAHJ"
       ],
