@@ -151,7 +151,7 @@
         "heading_zHxddR": {
           "type": "heading",
           "settings": {
-            "heading": "1500 SQUARE FEET STUDIO • PROFESSIONAL GRADE CYC WALL • PHOTO WALLS • INFINITY WALLS • BLACK OUT CURTAINS • FESTIVITY FURNITURE & PROPS • FLEXIBLE PARKING • CUTTING EDGE EQUIPMENT",
+            "heading": "• 1500 SQUARE FEET STUDIO • PROFESSIONAL GRADE CYC WALL • PHOTO WALLS • INFINITY WALLS • BLACK OUT CURTAINS • FESTIVITY FURNITURE & PROPS • FLEXIBLE PARKING • CUTTING EDGE EQUIPMENT",
             "heading_size": "h2"
           }
         },
@@ -187,6 +187,7 @@
       "blocks": {
         "heading_pT8Vcp": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Professional Lighting Workshop",
             "heading_size": "h1"
@@ -194,6 +195,7 @@
         },
         "heading_XHDyJV": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "3 point lighting techniques • Live model shoot • Portfolio building",
             "heading_size": "h2"
@@ -239,8 +241,29 @@
     "rich_text_VpHp9q": {
       "type": "rich-text",
       "blocks": {
+        "heading_g4cxF6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Professional Lighting Workshop",
+            "heading_size": "h1"
+          }
+        },
+        "text_WwDLjC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This workshop is designed for Photographers, Filmmakers, Content Creators, Influencers, and Creative Entrepreneurs.<\/p>"
+          }
+        },
+        "heading_7QkNYH": {
+          "type": "heading",
+          "settings": {
+            "heading": "• 3 point lighting techniques • Live model shoot • Portfolio building",
+            "heading_size": "h2"
+          }
+        },
         "heading_WLDerx": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Lighting Workshop Qualifications",
             "heading_size": "h1"
@@ -249,7 +272,7 @@
         "text_7HXnxH": {
           "type": "text",
           "settings": {
-            "text": "<p>As a free professional lighting workshop, our intention is to work alongside:<br\/><br\/>Photographers, Filmmakers, Content Creators, Influencers, and Creative Entrepreneurs.<br\/><br\/>Participants must be willing and able to meet in Philadelphia, PA, with their cameras and supporting equipment, ready to create.<\/p>"
+            "text": "<p>Attendees should be prepared to meet in Philadelphia, PA, equipped with their cameras and necessary gear, ready to create.<\/p>"
           }
         },
         "button_hUyNRm": {
@@ -267,6 +290,9 @@
         }
       },
       "block_order": [
+        "heading_g4cxF6",
+        "text_WwDLjC",
+        "heading_7QkNYH",
         "heading_WLDerx",
         "text_7HXnxH",
         "button_hUyNRm"
