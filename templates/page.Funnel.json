@@ -99,17 +99,17 @@
             "heading_size": "h1"
           }
         },
-        "text_y6ydDn": {
-          "type": "text",
-          "disabled": true,
+        "heading_pkpadg": {
+          "type": "heading",
           "settings": {
-            "text": "<p>• The studio is 1500 square feet <br\/>• Professional Cyc Wall<br\/>• Photo walls<br\/>• Seamless set<br\/>• Black out curtains <br\/>• An array of furniture and props <br\/>• Ample parking<br\/>• Cutting edge equiptment<\/p>"
+            "heading": "1500 SQUARE FEET STUDIO • PROFESSIONAL GRADE CYC WALL • PHOTO WALLS  INFINITY WALLS • BLACK OUT CURTAINS • FESTIVITY FURNITURE & PROPS • FLEXIBLE PARKING • CUTTING EDGE EQUIPMENT",
+            "heading_size": "h2"
           }
         }
       },
       "block_order": [
         "heading_J6VRNH",
-        "text_y6ydDn"
+        "heading_pkpadg"
       ],
       "settings": {
         "section_css_class": "Add CSS class",
@@ -189,7 +189,7 @@
         "heading_g4cxF6": {
           "type": "heading",
           "settings": {
-            "heading": "Professional Lighting Workshop",
+            "heading": "Free Professional Lighting Workshop",
             "heading_size": "h1"
           }
         },
@@ -212,7 +212,7 @@
             "button_label": "Registar Now",
             "button_link": "",
             "button_style_secondary": false,
-            "padding-top": 10,
+            "padding-top": 20,
             "padding-bottom": 10,
             "button_label_2": "",
             "button_link_2": "",
