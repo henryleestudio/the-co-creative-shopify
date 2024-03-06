@@ -210,7 +210,7 @@
           "type": "button",
           "settings": {
             "button_label": "Registar Now",
-            "button_link": "",
+            "button_link": "#registar-form-2",
             "button_style_secondary": false,
             "padding-top": 20,
             "padding-bottom": 10,
