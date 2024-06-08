@@ -13,6 +13,7 @@
       "blocks": {
         "heading_37bkcb": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "FREE LIGHTING WORKSHOP 4.7.24",
             "heading_size": "h1"
@@ -20,6 +21,7 @@
         },
         "heading_HDYcAp": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "📸 ✨ NETWORK & SHOOT ✨ 📸",
             "heading_size": "h2"
@@ -27,6 +29,7 @@
         },
         "slide_4aKNf8": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "logo": "shopify:\/\/shop_images\/the-co-creative-emblem-wht-trans.png",
             "logo-size": 35,
@@ -36,6 +39,7 @@
         },
         "url_Yx6Vai": {
           "type": "url",
+          "disabled": true,
           "settings": {
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f98ddef8ca404d24b82953cd18b67502.mp4",
             "autoplay": true,
@@ -45,6 +49,7 @@
         },
         "heading_NeT6Cj": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Accepting 15 Content Creators",
             "heading_size": "h0"
@@ -52,6 +57,7 @@
         },
         "heading_n977fY": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Registar Below",
             "heading_size": "h2"
@@ -59,6 +65,7 @@
         },
         "email_form_jQFAMV": {
           "type": "email_form",
+          "disabled": true,
           "settings": {
           }
         }
@@ -74,7 +81,8 @@
       ],
       "settings": {
         "custom-section-id": "",
-        "video_banner_background": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8dad4613536d47ca8f81f3a75221b3a3.mp4",
+        "video_banner_background": "",
+        "image": "shopify:\/\/shop_images\/127.0.0.1_5501.png",
         "video_background": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6a7e360e3c484cd99e2937123f886ab3.mp4",
         "color_overlay": "{{ shop.brand.colors.secondary[1].background }}",
         "image_overlay_opacity": 20,
