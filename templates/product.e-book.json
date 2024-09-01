@@ -19,6 +19,7 @@
         },
         "text_haG4f7": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "2700 E. Tioga Street – Studio #2e, Port Richmond, Philadelphia PA",
             "text_style": "body"
@@ -32,6 +33,7 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
@@ -45,7 +47,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false,
+            "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
           }
         },
@@ -202,6 +204,7 @@
         "collapsible_row_n3kCiR",
         "collapsible_row_iWirH8"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "",
@@ -237,6 +240,7 @@
       "block_order": [
         "video_RQLjkL"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -296,6 +300,7 @@
         "collapsible_row_dn6DpM",
         "collapsible_row_FcErh8"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "",
