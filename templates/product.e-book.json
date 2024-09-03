@@ -20,7 +20,7 @@
         "text_haG4f7": {
           "type": "text",
           "settings": {
-            "text": "2700 E. Tioga Street – Studio #2e, Port Richmond, Philadelphia PA",
+            "text": "Master the art of conversion optimization and outpace your competition.",
             "text_style": "body"
           }
         },
@@ -45,7 +45,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false,
+            "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
           }
         },
