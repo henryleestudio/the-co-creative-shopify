@@ -106,76 +106,6 @@
         "padding_bottom": 28
       }
     },
-    "featured_product_7Vf3Qj": {
-      "type": "featured-product",
-      "blocks": {
-        "text_FnEmrx": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_9XCnAH": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_mG8xwB": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "variant_picker_jFVKB4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "quantity_selector_k64pXV": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons_xapVfE": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_7kGXgn": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_FnEmrx",
-        "title_9XCnAH",
-        "price_mG8xwB",
-        "variant_picker_jFVKB4",
-        "quantity_selector_k64pXV",
-        "buy_buttons_xapVfE",
-        "share_7kGXgn"
-      ],
-      "settings": {
-        "product": "",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_NiUFrY": {
       "type": "multicolumn",
       "blocks": {
@@ -262,8 +192,9 @@
         "button_x6xjan"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/brics-results-3.webp",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -272,6 +203,78 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_7Vf3Qj": {
+      "type": "featured-product",
+      "blocks": {
+        "text_FnEmrx": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_9XCnAH": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_mG8xwB": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_jFVKB4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_k64pXV": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons_xapVfE": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_7kGXgn": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_FnEmrx",
+        "title_9XCnAH",
+        "price_mG8xwB",
+        "variant_picker_jFVKB4",
+        "quantity_selector_k64pXV",
+        "buy_buttons_xapVfE",
+        "share_7kGXgn"
+      ],
+      "settings": {
+        "product": "e-commerce-conversion-rate-optimization-guide",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "right",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -485,9 +488,9 @@
   "order": [
     "main",
     "related-products",
-    "featured_product_7Vf3Qj",
     "multicolumn_NiUFrY",
     "image_with_text_Rnxhti",
+    "featured_product_7Vf3Qj",
     "collapsible_content_KNb86V",
     "background_video_JUypAj",
     "collapsible_content_dd4mUT"
