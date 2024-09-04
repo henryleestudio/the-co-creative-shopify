@@ -228,7 +228,7 @@
         "buttons_XRPLLe"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/report-3.webp",
+        "image": "shopify:\/\/shop_images\/Portfolio.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -372,140 +372,6 @@
         "padding_bottom": 36
       }
     },
-    "collapsible_content_KNb86V": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_4UNdFP": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Location",
-            "icon": "none",
-            "row_content": "",
-            "page": "studio2e-location"
-          }
-        },
-        "collapsible_row_xjjeq9": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Pricing",
-            "icon": "none",
-            "row_content": "<p>$75 per hour<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_nVtyf3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Opening hours",
-            "icon": "none",
-            "row_content": "<p>Monday – Sunday<br\/>9am – 11pm<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_ArE33e": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Capacity",
-            "icon": "none",
-            "row_content": "<p>Standing 50 - 75 people<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_N8AK9J": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Catering and drinks",
-            "icon": "none",
-            "row_content": "<p>No in-house catering<\/p><p>External catering allowed<\/p><p>BYO alcohol allowed<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_WXy7Lg": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Facilities",
-            "icon": "none",
-            "row_content": "<p>Wi-Fi<\/p><p>Natural light<\/p><p>Free parking is available on-site<\/p><p>Free on-street parking<\/p><p>Projector<\/p><p>Flatscreen TV<\/p><p>Whiteboard<\/p><p>Flipchart<\/p><p>PA system \/ speakers<\/p><p>Conference call facilities<\/p><p>Air conditioning<\/p><p>Storage space<\/p><p>Quiet space<\/p><p>Accommodation available<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_rnEFQ8": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Music & sound equipment",
-            "icon": "none",
-            "row_content": "<p>Own music allowed<\/p><p>Bring your own DJ<\/p><p>Noise restrictions<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_n3kCiR": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Accessibility",
-            "icon": "none",
-            "row_content": "<p>Wheelchair accessible<\/p><p>Cargo lift<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_iWirH8": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Rules of the space",
-            "icon": "none",
-            "row_content": "<p>There is no smoking or pets allowed in the studio. You are allowed to bring in outside food as well as using any vendors that you like. There is no cooking inside of the studio except for items that can be cooked in the microwave.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_4UNdFP",
-        "collapsible_row_xjjeq9",
-        "collapsible_row_nVtyf3",
-        "collapsible_row_ArE33e",
-        "collapsible_row_N8AK9J",
-        "collapsible_row_WXy7Lg",
-        "collapsible_row_rnEFQ8",
-        "collapsible_row_n3kCiR",
-        "collapsible_row_iWirH8"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "background_video_JUypAj": {
-      "type": "background-video",
-      "blocks": {
-        "video_RQLjkL": {
-          "type": "video",
-          "settings": {
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8dad4613536d47ca8f81f3a75221b3a3.mp4",
-            "title": "",
-            "text": "",
-            "color_text": "#ffffff",
-            "button_label": "",
-            "button_link": "",
-            "color_btn_bg": "#ffffff",
-            "color_btn_text": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "video_RQLjkL"
-      ],
-      "settings": {
-      }
-    },
     "collapsible_content_dd4mUT": {
       "type": "collapsible-content",
       "blocks": {
@@ -586,8 +452,6 @@
     "related-products",
     "collage_rBWrpb",
     "featured_product_7Vf3Qj",
-    "collapsible_content_KNb86V",
-    "background_video_JUypAj",
     "collapsible_content_dd4mUT"
   ]
 }
