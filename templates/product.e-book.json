@@ -166,19 +166,20 @@
         "heading_M9qHVi": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "With over a decade in the e-commerce industry, I bring a deep understanding of UI\/UX design, software engineering, and conversion rate optimization.\u2028",
+            "heading_size": "h2"
           }
         },
         "text_qiEQWW": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>I have a proven track record of building multi-million dollar businesses, one of which I’ve led, designed, and developed the e-commerce sales funnel generating over $100k from $0 in less than three months.<\/p>",
             "text_style": "body"
           }
         },
         "button_x6xjan": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -192,14 +193,14 @@
         "button_x6xjan"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/brics-results-3.webp",
+        "image": "shopify:\/\/shop_images\/profile-pic-edited.webp",
         "height": "adapt",
-        "desktop_image_width": "large",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
+        "section_color_scheme": "inverse",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
