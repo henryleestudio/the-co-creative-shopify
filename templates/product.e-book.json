@@ -233,7 +233,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -309,7 +309,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/report-3.webp",
             "heading": "",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "subheading": "",
             "button_label": "",
             "link": "",
