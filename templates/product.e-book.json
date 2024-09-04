@@ -140,6 +140,57 @@
         "show_text_below": true
       }
     },
+    "image_banner_wH4ApE": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_x68LgB": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_8tVYUW": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_qkH7er": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_x68LgB",
+        "text_8tVYUW",
+        "buttons_qkH7er"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Introduction-1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "image_with_text_Rnxhti": {
       "type": "image-with-text",
       "blocks": {
@@ -172,6 +223,7 @@
         "text_qiEQWW",
         "button_x6xjan"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/profile_16b845ed-aa01-4bef-83bc-7077a4413be9.jpg",
         "height": "adapt",
@@ -526,6 +578,7 @@
   "order": [
     "main",
     "image_banner_JznRbY",
+    "image_banner_wH4ApE",
     "image_with_text_Rnxhti",
     "slideshow_8Kz7GW",
     "multicolumn_NiUFrY",
