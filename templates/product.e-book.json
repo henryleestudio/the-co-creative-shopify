@@ -12,17 +12,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "text_haG4f7": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Master the art of conversion optimization<\/strong>",
+            "text_style": "uppercase"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
-          }
-        },
-        "text_haG4f7": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "2700 E. Tioga Street – Studio #2e, Port Richmond, Philadelphia PA",
-            "text_style": "body"
           }
         },
         "price": {
@@ -64,8 +63,8 @@
         }
       },
       "block_order": [
-        "title",
         "text_haG4f7",
+        "title",
         "price",
         "variant_picker",
         "quantity_selector",
@@ -78,7 +77,7 @@
         "color_scheme": "background-2",
         "media_size": "large",
         "constrain_to_viewport": true,
-        "media_fit": "contain",
+        "media_fit": "cover",
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
         "image_zoom": "lightbox",
@@ -87,6 +86,235 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "image_banner_JznRbY": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_tmw379": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_tNdKrP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_XRPLLe": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_tmw379",
+        "text_tNdKrP",
+        "buttons_XRPLLe"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Portfolio.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_Rnxhti": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_M9qHVi": {
+          "type": "heading",
+          "settings": {
+            "heading": "With over a decade in the e-commerce industry, I bring a deep understanding of UI\/UX design, software engineering, and conversion rate optimization.\u2028",
+            "heading_size": "h2"
+          }
+        },
+        "text_qiEQWW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I have a proven track record of building multi-million dollar businesses, one of which I’ve led, designed, and developed the e-commerce sales funnel generating over $100k from $0 in less than three months.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_x6xjan": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_M9qHVi",
+        "text_qiEQWW",
+        "button_x6xjan"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/profile_16b845ed-aa01-4bef-83bc-7077a4413be9.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "inverse",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_8Kz7GW": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_JXiQpc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/report-3.webp",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_kYGabJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/report-1.webp",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_THU3in": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/report-2.webp",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_JXiQpc",
+        "slide_kYGabJ",
+        "slide_THU3in"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "multicolumn_NiUFrY": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_qrqGaR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/report-3.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KJcELx": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7NALwV": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_qrqGaR",
+        "column_KJcELx",
+        "column_7NALwV"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Testimonials",
+        "heading_size": "h1",
+        "icon_size": 100,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "related-products": {
@@ -108,140 +336,118 @@
         "padding_bottom": 28
       }
     },
-    "collapsible_content_KNb86V": {
-      "type": "collapsible-content",
+    "collage_rBWrpb": {
+      "type": "collage",
       "blocks": {
-        "collapsible_row_4UNdFP": {
-          "type": "collapsible_row",
+        "image_wVeE8n": {
+          "type": "image",
           "settings": {
-            "heading": "Location",
-            "icon": "none",
-            "row_content": "",
-            "page": "studio2e-location"
+            "image": "shopify:\/\/shop_images\/bricstore.com-16.webp"
           }
         },
-        "collapsible_row_xjjeq9": {
-          "type": "collapsible_row",
+        "product_fMAcFQ": {
+          "type": "product",
           "settings": {
-            "heading": "Pricing",
-            "icon": "none",
-            "row_content": "<p>$75 per hour<\/p>",
-            "page": ""
+            "product": "",
+            "second_image": false
           }
         },
-        "collapsible_row_nVtyf3": {
-          "type": "collapsible_row",
+        "collection_Tbf8zC": {
+          "type": "collection",
           "settings": {
-            "heading": "Opening hours",
-            "icon": "none",
-            "row_content": "<p>Monday – Sunday<br\/>9am – 11pm<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_ArE33e": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Capacity",
-            "icon": "none",
-            "row_content": "<p>Standing 50 - 75 people<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_N8AK9J": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Catering and drinks",
-            "icon": "none",
-            "row_content": "<p>No in-house catering<\/p><p>External catering allowed<\/p><p>BYO alcohol allowed<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_WXy7Lg": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Facilities",
-            "icon": "none",
-            "row_content": "<p>Wi-Fi<\/p><p>Natural light<\/p><p>Free parking is available on-site<\/p><p>Free on-street parking<\/p><p>Projector<\/p><p>Flatscreen TV<\/p><p>Whiteboard<\/p><p>Flipchart<\/p><p>PA system \/ speakers<\/p><p>Conference call facilities<\/p><p>Air conditioning<\/p><p>Storage space<\/p><p>Quiet space<\/p><p>Accommodation available<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_rnEFQ8": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Music & sound equipment",
-            "icon": "none",
-            "row_content": "<p>Own music allowed<\/p><p>Bring your own DJ<\/p><p>Noise restrictions<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_n3kCiR": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Accessibility",
-            "icon": "none",
-            "row_content": "<p>Wheelchair accessible<\/p><p>Cargo lift<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_iWirH8": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Rules of the space",
-            "icon": "none",
-            "row_content": "<p>There is no smoking or pets allowed in the studio. You are allowed to bring in outside food as well as using any vendors that you like. There is no cooking inside of the studio except for items that can be cooked in the microwave.<\/p>",
-            "page": ""
+            "collection": ""
           }
         }
       },
       "block_order": [
-        "collapsible_row_4UNdFP",
-        "collapsible_row_xjjeq9",
-        "collapsible_row_nVtyf3",
-        "collapsible_row_ArE33e",
-        "collapsible_row_N8AK9J",
-        "collapsible_row_WXy7Lg",
-        "collapsible_row_rnEFQ8",
-        "collapsible_row_n3kCiR",
-        "collapsible_row_iWirH8"
+        "image_wVeE8n",
+        "product_fMAcFQ",
+        "collection_Tbf8zC"
       ],
       "disabled": true,
       "settings": {
-        "caption": "",
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
+        "heading": "Multimedia collage",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "background_video_JUypAj": {
-      "type": "background-video",
+    "featured_product_7Vf3Qj": {
+      "type": "featured-product",
       "blocks": {
-        "video_RQLjkL": {
-          "type": "video",
+        "text_FnEmrx": {
+          "type": "text",
+          "disabled": true,
           "settings": {
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8dad4613536d47ca8f81f3a75221b3a3.mp4",
-            "title": "",
-            "text": "",
-            "color_text": "#ffffff",
-            "button_label": "",
-            "button_link": "",
-            "color_btn_bg": "#ffffff",
-            "color_btn_text": "#ffffff"
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_9XCnAH": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_mG8xwB": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_jFVKB4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_k64pXV": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons_xapVfE": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_7kGXgn": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
       "block_order": [
-        "video_RQLjkL"
+        "text_FnEmrx",
+        "title_9XCnAH",
+        "price_mG8xwB",
+        "variant_picker_jFVKB4",
+        "quantity_selector_k64pXV",
+        "buy_buttons_xapVfE",
+        "share_7kGXgn"
       ],
       "disabled": true,
       "settings": {
+        "product": "e-commerce-conversion-rate-optimization-guide",
+        "color_scheme": "inverse",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "right",
+        "image_zoom": "lightbox",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "collapsible_content_dd4mUT": {
@@ -300,7 +506,6 @@
         "collapsible_row_dn6DpM",
         "collapsible_row_FcErh8"
       ],
-      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "",
@@ -319,9 +524,13 @@
   },
   "order": [
     "main",
+    "image_banner_JznRbY",
+    "image_with_text_Rnxhti",
+    "slideshow_8Kz7GW",
+    "multicolumn_NiUFrY",
     "related-products",
-    "collapsible_content_KNb86V",
-    "background_video_JUypAj",
+    "collage_rBWrpb",
+    "featured_product_7Vf3Qj",
     "collapsible_content_dd4mUT"
   ]
 }
