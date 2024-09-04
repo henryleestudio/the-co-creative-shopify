@@ -14,8 +14,9 @@
       "blocks": {
         "text_haG4f7": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<strong>Master the art of conversion optimization<\/strong>",
+            "text": "<strong>Design. Develop. Convert.<\/strong>",
             "text_style": "uppercase"
           }
         },
@@ -139,6 +140,111 @@
         "show_text_below": true
       }
     },
+    "image_banner_wH4ApE": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_x68LgB": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_8tVYUW": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_qkH7er": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_x68LgB",
+        "text_8tVYUW",
+        "buttons_qkH7er"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Introduction-1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_nnkYcN": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_C9VQt3": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_zMDp7T": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_nB9Cg9": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_C9VQt3",
+        "text_zMDp7T",
+        "button_nB9Cg9"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Introduction-1_bf6c799d-3870-4a19-aca4-c4b8a919cc7b.webp",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_Rnxhti": {
       "type": "image-with-text",
       "blocks": {
@@ -171,6 +277,7 @@
         "text_qiEQWW",
         "button_x6xjan"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/profile_16b845ed-aa01-4bef-83bc-7077a4413be9.jpg",
         "height": "adapt",
@@ -180,7 +287,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "inverse",
-        "color_scheme": "",
+        "color_scheme": "inverse",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -219,7 +326,7 @@
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "",
@@ -253,12 +360,64 @@
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
-        "slider_visual": "numbers",
+        "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
         "image_behavior": "none",
         "show_text_below": true,
-        "accessibility_info": "E-commerce CRO results"
+        "accessibility_info": ""
+      }
+    },
+    "image_banner_LJFEwP": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_bHUqak": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_jt7hjY": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_C9abgf": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bHUqak",
+        "text_jt7hjY",
+        "buttons_C9abgf"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-09-04_at_12.57.48_AM.png",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "multicolumn_NiUFrY": {
@@ -342,7 +501,7 @@
         "image_wVeE8n": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bricstore.com-16.webp"
+            "image": "shopify:\/\/shop_images\/Introduction-1_bf6c799d-3870-4a19-aca4-c4b8a919cc7b.webp"
           }
         },
         "product_fMAcFQ": {
@@ -434,12 +593,11 @@
         "buy_buttons_xapVfE",
         "share_7kGXgn"
       ],
-      "disabled": true,
       "settings": {
         "product": "e-commerce-conversion-rate-optimization-guide",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "secondary_background": false,
-        "media_size": "medium",
+        "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "right",
@@ -525,8 +683,11 @@
   "order": [
     "main",
     "image_banner_JznRbY",
+    "image_banner_wH4ApE",
+    "image_with_text_nnkYcN",
     "image_with_text_Rnxhti",
     "slideshow_8Kz7GW",
+    "image_banner_LJFEwP",
     "multicolumn_NiUFrY",
     "related-products",
     "collage_rBWrpb",
