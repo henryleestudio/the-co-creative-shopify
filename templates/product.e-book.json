@@ -12,16 +12,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
         "text_haG4f7": {
           "type": "text",
           "settings": {
             "text": "<strong>Master the art of conversion optimization<\/strong>",
             "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
           }
         },
         "price": {
@@ -62,8 +62,8 @@
         }
       },
       "block_order": [
-        "title",
         "text_haG4f7",
+        "title",
         "price",
         "variant_picker",
         "quantity_selector",
