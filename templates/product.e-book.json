@@ -243,23 +243,6 @@
     "slideshow_8Kz7GW": {
       "type": "slideshow",
       "blocks": {
-        "slide_pMywUE": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_JXiQpc": {
           "type": "slide",
           "settings": {
@@ -316,7 +299,6 @@
         }
       },
       "block_order": [
-        "slide_pMywUE",
         "slide_JXiQpc",
         "slide_kYGabJ",
         "slide_THU3in"
@@ -355,10 +337,10 @@
           "type": "buttons",
           "disabled": true,
           "settings": {
-            "button_label_1": "Book 1:1",
+            "button_label_1": "Button label",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "",
+            "button_label_2": "Button label",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -376,7 +358,7 @@
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-d2f4cea3-b6bc-4487-9274-dbeb484e9f82",
+        "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
